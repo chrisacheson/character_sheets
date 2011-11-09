@@ -7,6 +7,7 @@ levels:
 	6	fighter (5)	72hp	(+9+4)		weapon specialization feat
 
 status:
+	bull's strength (+4 str)
 
 vitals:
 	attack (greatsword): +5 BAB +2 str +1 magic +1 weapon focus = +9
@@ -37,6 +38,8 @@ experience:
 	1180	(+450)	magma-core golems
 	1630	(+450)	demons
 	3430	(+1800)	traps
+	3880	(+450)	gauth
+	4330	(+450)	gauth
 
 gold:
 	4514			remaining from character gen
