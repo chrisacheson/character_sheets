@@ -1,0 +1,242 @@
+levels:
+	1	rogue (1)	9hp	(6+3)
+	2	fighter (1)	19hp	(+7+3)
+	3	fighter (2)	31hp	(+6+4+2)	improved toughness feat, +1hp/hd
+	4	fighter (3)	45hp	(+10+4)		+1 intelligence
+	5	fighter	(4)	59hp	(+10+4)
+	6	fighter (5)	72hp	(+9+4)		weapon specialization feat
+
+status:
+
+vitals:
+	attack (greatsword): +5 BAB +2 str +1 magic +1 weapon focus = +9
+	damage (greatsword): +3 str +2 spec +1 magic +1d6 frost = +6 +1d6
+
+	AC (adamantine full plate): 10 base +8 armor +1 dex +1 HAO = 20 +2 dodge, 3/- DR
+
+	fortitude: +4 base +3 con = +7, reflex: +4 base +1 dex = +5, will: +2 base +1 wis = +3
+
+	spot/listen:	+1 wis +7/+6			= +9/+8
+	hide/sneak:	+1 dex -4 ACP +5 EK +8/+8	= +11/+11
+	search:		+3 int +8			= +12
+	disable device:	+3 int +2 tools +8		= +14
+
+experience:
+	0		joined party
+	175	(+175)	joystealer
+	1550	(+1550)	dryad and verdant reavers
+	1800	(+250)	animated tapestry
+	2800	(+1000)	bone lord
+	3360	(+560)	explosive ooze
+	4110	(+750)	ephemeral swarms
+	4485	(+375)	fiendish otyugh
+	4905	(+420)	nashrou
+	5280	(+375)	blue wyrmling
+	280	(-5000)	level 6
+	730	(+450)	young blue dragon
+	1180	(+450)	magma-core golems
+	1630	(+450)	demons
+	3430	(+1800)	traps
+
+gold:
+	4514			remaining from character gen
+	2514	(-2000)		armor/sword/boots/cloak/potions from old character
+	2879	(+365)		gold from joystealer
+	5079	(+2200)		gold from bone lord
+	5229	(+150)		gold from fiendish otyugh
+	5829	(+600)		gold from blue wyrmling
+	7379	(+1550)		gold from young blue dragon
+
+new equipment:
+	+1 frost greatsword
+	+2 full plate
+	adamantine full plate
+	masterwork composite longbow (+2 str)
+	got rid of old longbow
+	boots and cloak of elvenkind
+	1 vials antitoxin
+	3 vials holy water
+	2 potions of cure light wounds
+	used 2 arrows
+	orb of physical renewal
+	orb of mental renewal
+	ever-full mug
+
+party loot:
+	potion of mage armor		50gp
+	masterwork breastplate		350gp
+	+1 full plate
+	everburning torch
+
+chris and rya loot:
+	alchemical silver dagger
+
+planned levels:
+	6	fighter (5)
+	7	dread commando{heroes of battle} (1)
+
+stats:
+	strength	15
+	dexterity	15
+	constitution	17
+	intelligence	15	16 at level 4
+	wisdom		12
+	charisma	11
+
+skills:
+	level 1 (rogue, 44 pts):
+		climb		4
+		disable device	4
+		hide		4
+		jump		4
+		listen		4
+		move silently	4
+		open lock	4
+		search		4
+		spot		4
+		tumble		4
+		use rope	4
+	level 2 (fighter, 5 pts):
+		climb		4
+		disable device	5 (+1)
+		hide		5 (+1)
+		jump		4
+		listen		4
+		move silently	5 (+1)
+		open lock	4
+		search		5 (+1)
+		spot		4
+		tumble		5 (+1)
+		use rope	4
+	level 3 (fighter, 5 pts):
+		climb		4
+		disable device	6 (+1)
+		hide		6 (+1)
+		jump		4
+		listen		4
+		move silently	6 (+1)
+		open lock	4
+		search		6 (+1)
+		spot		5 (+1)
+		tumble		5
+		use rope	4
+	level 4 (fighter, 6 pts):
+		climb		4
+		disable device	7 (+1)
+		hide		7 (+1)
+		jump		4
+		listen		5 (+1)
+		move silently	7 (+1)
+		open lock	4
+		search		7 (+1)
+		spot		6 (+1)
+		tumble		5
+		use rope	4
+	level 5 (fighter, 6 pts):
+		climb		4
+		disable device	8 (+1)
+		hide		8 (+1)
+		jump		4
+		listen		6 (+1)
+		move silently	8 (+1)
+		open lock	4
+		search		8 (+1)
+		spot		7 (+1)
+		tumble		5
+		use rope	4
+	level 6 (fighter, 6 pts):
+		climb		4
+		disable device	9 (+1)
+		hide		9 (+1)
+		jump		4
+		listen		7 (+1)
+		move silently	9 (+1)
+		open lock	4
+		search		9 (+1)
+		spot		8 (+1)
+		tumble		5
+		use rope	4
+
+languages:
+	common
+	undercommon
+	elven
+
+feats:
+	able learner{races of destiny} (human)
+	dodge (level 1)
+	weapon focus [greatsword] (fighter level 1)
+	mobility (fighter level 2)
+	improved toughness{complete warrior} (level 3)
+	heavy armor optimization{races of stone} (fighter level 4)
+	weapon specialization [greatsword] (level 6)
+
+feats wanted:
+	improved critical[ftr](BAB 8)
+	power attack[ftr]
+		cleave[ftr]
+			great cleave[ftr](BAB 4)
+	melee weapon mastery[ftr](BAB 8){player's handbook 2}
+	greater weapon focus[ftr](ftr lvl 8)
+		greater weapon specialization[ftr](weapon focus, ftr lvl 12)
+
+feats maybe wanted:
+	armor specialization(BAB 12){player's handbook 2}
+	shadow striker[ftr](hide 12, move silently 12){player's handbook 2}
+	subduing strike{book of exalted deeds}
+	improved initiative
+		danger sense{complete adventurer}
+	quick draw[ftr]
+	allied defense(combat expertise[ftr](int 13)){forgotten realms - shining south}
+	improved combat expertise[ftr](int 13, combat expertise, BAB 6){complete warrior} - only take this with allied defense
+	greater heavy armor optimization[ftr](BAB 8){races of stone}
+
+shovel
+crowbar
+miner's pick
+
+equipment:
+	greatsword					50gp
+	longbow						75gp
+	20 arrows					1gp
+	banded mail					250gp
+	small steel mirror				10gp
+	200 foot silk rope				80gp
+	everburning torch				110gp
+	2 smokesticks with tindertwigs attached		42gp
+	masterwork climber's kit			130gp
+	masterwork thieves' tools			100gp
+	ascender/slider					20gp
+	collapsible grappling hook			3gp
+	money belt					4gp
+	backpack					2gp
+	bedroll						0.1gp
+	winter blanket					0.5gp
+	chest with superior lock			152gp
+	5 days trail rations				2.5gp
+	tent						10gp
+	waterskin					1gp
+	bit and bridle					2gp
+	mule						8gp
+	5 days feed					0.25gp
+	pack saddle					5gp
+	bolt cutters					6gp
+	glass cutter					2gp
+	2 common hacksaws				10gp
+	folding saw					2gp
+	ten-foot pole					0.2gp
+	2 pieces of chalk				0.02gp
+	3 days firewood					0.03gp
+	4 pints of oil					0.4gp
+	shovel						2gp
+	crowbar						2gp
+	miner's pick					3gp
+	 total						 1086gp
+
+remaining gold:	5600gp - 1086gp = 4514gp
+
+daily costs:
+	good inn						2gp
+	good meals						0.5gp
+	stabling						0.5gp
+	 total							 3gp

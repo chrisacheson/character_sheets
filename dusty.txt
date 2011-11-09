@@ -1,0 +1,253 @@
+levels:
+	1	rogue (1)	8hp	(6+2)
+	2	fighter (1)	17hp	(+7+2)
+	3	fighter (2)	21hp	(+2+2)
+	4	fighter (3)	32hp	(+9+2)	+1 strength
+	5	fighter	(4)	39hp	(+5+2)
+
+taken 44 damage
+6 con damage
+DEAD
+
+vitals:
+	attack (greatsword): +4 BAB +3 str +1 magic weapon +1 weapon focus = +9
+	damage (greatsword): +4 str +1 magic weapon = +5
+
+	attack (composite longbow): +4 BAB +2 dex +1 masterwork = +7
+	damage (composite longbow): +2 str = +2
+
+	AC (full plate): 10 base +8 armor +2 magic armor +1 dex +1 HAO = 22 +1 dodge 
+	AC (chain shirt): 10 base +4 armor +2 dex = 16 +1 dodge
+
+	fortitude: +4 base +2 con = +6, reflex: +3 base +2 dex = +5, will: +1 base -1 wis = +0
+
+	balance: +2 dex +4 = +6, climb: +3 str +4 = +7, disable device: +3 int +7 = +10, hide: +2 dex +8 = +10, jump: +3 str +4 = +7, listen: -1 wis +7 = +6,
+	move silently: +2 dex +8 = +10, open lock: +2 dex +6 = +8, search: +3 int +8 = +11, spot: -1 wis +7 = +6, swim: +3 str +4 = +7, use rope: +2 dex +5 = +7
+
+experience:
+	200	(+200)	dretch
+	500	(+300)	goblins
+	900	(+400)	elemental
+	1700	(+800)	initial necromancer dungeon foray
+	2150	(+450)	ghouls
+	2450	(+300)	cockatrice
+	2900	(+450)	snake golems
+	3000	(+100)	storyline xp
+	0	(-3000)	level 4
+	400	(+400)	boneclaw
+	800	(+400)	necromancer and minions
+	1000	(+200)	quest xp
+	2065	(+1065)	dragon and beggar-wizard
+	2865	(+800)	bugbears
+	3665	(+800)	mephits
+	4065	(+400)	minotaur
+	65	(-4000)	level 5
+	735	(+670)	snowcloaks
+	1235	(+500)	ghost
+	2235	(+1000)	gargoyles
+	2785	(+550)	botched ice genie fight
+
+gold:
+	578.65			remaining from character gen
+	631.65	(+53)		bill sold masterwork greataxe
+	256.65	(-375)		bought 3 antitoxin, 3 holy water, 3 cure light wounds
+	429.65	(+173)		treasure from initial necromancer dungeon foray
+	1529.65	(+1100)		borrowed 700gp from bill, 400gp from rya
+	29.65	(-1500)		bought full plate
+	22.65	(-7)		bought shovel, crowbar, and miner's pick
+	87.65	(+63)		gold from ogre
+	721.65	(+634)		gold from necromancer treasury
+	1321.65	(+600)		gold from necromancer
+	1621.65	(+300)		sold magic door and trapped handle
+	2371.65	(+750)		sold full plate
+	1271.65	(-1100)		paid back 700gp to bill, 400gp to rya
+	1446.65	(+175)		sold masterwork greatsword
+	1446.15	(-0.5)		swindled!
+	1650.15	(+204)		gold from dragon hoard
+	1850.65	(+200.5)	revenge!
+	1830.65	(-20)		magic healing in town
+	1650.65	(-180)		bought 3 cure light wounds potions, 150ft silk rope
+	1400.65	(-250)		pitched in for cure light wounds wand
+	1733.65	(+333)		gold from mephits
+	1913.65	(+180)		gold from minotaur
+	1963.65	(+50)		bill paid for antitoxin
+	2064.65	(+100)		gold from ice genie hoard
+	2104.65	(+40)		payment for escorting merchants
+	1834.65	(-270)		bought 1 vial antitoxin, 2 potions of hide from undead, 1 potion of hide from animals, 2 potions of pass w/o trace @ 10% off
+
+new equipment:
+	2 vials antitoxin
+	3 vials holy water
+	3 potions of cure light wounds
+	used 3 arrows
+	shovel
+	crowbar
+	miner's pick
+	+1 frost greatsword
+	+2 full plate
+	sold masterwork greatsword
+	150ft more silk rope (for total of 200)
+	boots and cloak of elvenkind
+
+party loot:
+	greataxe
+
+planned levels:
+	5-6	fighter (4-5)
+	7	dread commando{heroes of battle} (1)
+
+stats:
+	strength	15	{8}	16 at level 4
+	dexterity	14	{6}
+	constitution	14	{6}
+	intelligence	16	{10}
+	wisdom		8	{0}
+	charisma	8	{0}
+
+skills:
+	level 1 (rogue, 48 pts):
+		balance		4
+		climb		4
+		disable device	4
+		hide		4
+		jump		4
+		listen		4
+		move silently	4
+		open lock	4
+		search		4
+		spot		4
+		swim		4
+		use rope	4
+	level 2 (fighter, 6 pts):
+		balance		4
+		climb		4
+		disable device	5 (+1)
+		hide		5 (+1)
+		jump		4
+		listen		5 (+1)
+		move silently	5 (+1)
+		open lock	4
+		search		5 (+1)
+		spot		5 (+1)
+		swim		4
+		use rope	4
+	level 3 (fighter, 6 pts):
+		balance		4
+		climb		4
+		disable device	5
+		hide		6 (+1)
+		jump		4
+		listen		6 (+1)
+		move silently	6 (+1)
+		open lock	5 (+1)
+		search		6 (+1)
+		spot		6 (+1)
+		swim		4
+		use rope	4
+	level 4 (fighter, 6 pts):
+		balance		4
+		climb		4
+		disable device	6 (+1)
+		hide		7 (+1)
+		jump		4
+		listen		6
+		move silently	7 (+1)
+		open lock	6 (+1)
+		search		7 (+1)
+		spot		6
+		swim		4
+		use rope	5 (+1)
+	level 5 (fighter, 6 pts):
+		balance		4
+		climb		4
+		disable device	7 (+1)
+		hide		8 (+1)
+		jump		4
+		listen		7 (+1)
+		move silently	8 (+1)
+		open lock	6
+		search		8 (+1)
+		spot		7 (+1)
+		swim		4
+		use rope	5
+
+languages:
+	common
+	undercommon
+	elven
+	halfling
+
+feats:
+	able learner{races of destiny} (human)
+	dodge (level 1)
+	weapon focus [greatsword] (fighter level 1)
+	power attack (fighter level 2)
+	cleave (level 3)
+	heavy armor optimization{races of stone} (fighter level 4)
+
+planned feats:
+	mobility (level 6)
+
+feats wanted:
+	improved critical[ftr](BAB 8)
+	great cleave[ftr](BAB 4)
+	melee weapon mastery[ftr](BAB 8){player's handbook 2}
+	weapon specialization [ftr] (ftr lvl 4)
+	greater weapon focus[ftr](ftr lvl 8)
+		greater weapon specialization[ftr](weapon focus, ftr lvl 12)
+
+feats maybe wanted:
+	armor specialization(BAB 12){player's handbook 2}
+	shadow striker[ftr](hide 12, move silently 12){player's handbook 2}
+	subduing strike{book of exalted deeds}
+	improved initiative
+		danger sense{complete adventurer}
+	quick draw[ftr]
+	allied defense(combat expertise[ftr](int 13)){forgotten realms - shining south}
+	improved combat expertise[ftr](int 13, combat expertise, BAB 6){complete warrior} - only take this with allied defense
+	improved toughness[ftr](base fort save 2){complete warrior}
+	greater heavy armor optimization[ftr](BAB 8){races of stone}
+
+equipment (carried):
+	masterwork greatsword				8lb	350gp
+	masterwork composite longbow (+2 str)		3lb	600gp
+	20 arrows					3lb	1gp
+	masterwork chain shirt				25lb	250gp
+	small steel mirror				0.5lb	10gp
+	50 foot silk rope				5lb	20gp
+	everburning torch				1lb	110gp
+	2 smokesticks with tindertwigs attached		1lb	42gp
+	masterwork climber's kit			5lb	130gp
+	masterwork thieves' tools			2lb	100gp
+	ascender/slider					1lb	20gp
+	collapsible grappling hook			2lb	3gp
+	money belt						4gp
+	silent shoes					1lb	10gp
+	forester's cloak				3lb	20gp
+	framed pack					2lb	50gp
+	 total						 62.5lb	 1720gp
+
+equipment (stored):
+	bedroll						5lb	0.1gp
+	winter blanket					3lb	0.5gp
+	chest with superior lock			26lb	152gp
+	5 days trail rations				5lb	2.5gp
+	tent						20lb	10gp
+	waterskin					4lb	1gp
+	bit and bridle					1lb	2gp
+	mule							8gp
+	5 days feed					50lb	0.25gp
+	pack saddle					15lb	5gp
+	bolt cutters					5lb	6gp
+	glass cutter					1lb	2gp
+	2 common hacksaws				2lb	10gp
+	folding saw					2lb	2gp
+	 total						 139lb	 201.35gp
+
+remaining gold:	2500gp - 1720gp - 201.35gp = 578.65gp
+
+daily costs:
+	good inn						2gp
+	good meals						0.5gp
+	stabling						0.5gp
+	 total							 3gp
