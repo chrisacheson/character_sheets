@@ -7,7 +7,7 @@ levels:
 	6	fighter (5)	72hp	(+9+4)		weapon specialization feat
 
 status:
-	bull's strength (+4 str)
+	taken 18 damage
 
 vitals:
 	attack (greatsword): +5 BAB +2 str +1 magic +1 weapon focus = +9
@@ -40,6 +40,7 @@ experience:
 	3430	(+1800)	traps
 	3880	(+450)	gauth
 	4330	(+450)	gauth
+	5530	(+1200)	inferno spider
 
 gold:
 	4514			remaining from character gen
@@ -49,10 +50,11 @@ gold:
 	5229	(+150)		gold from fiendish otyugh
 	5829	(+600)		gold from blue wyrmling
 	7379	(+1550)		gold from young blue dragon
+	8079	(+700)		gold from stash after inferno spider
 
 new equipment:
 	+1 frost greatsword
-	+2 full plate
+	+1 full plate
 	adamantine full plate
 	masterwork composite longbow (+2 str)
 	got rid of old longbow
@@ -70,13 +72,14 @@ party loot:
 	masterwork breastplate		350gp
 	+1 full plate
 	everburning torch
+	bag of holding (type 1)
+	druid's vestments
 
 chris and rya loot:
 	alchemical silver dagger
 
 planned levels:
 	6	fighter (5)
-	7	dread commando{heroes of battle} (1)
 
 stats:
 	strength	15
@@ -169,16 +172,15 @@ feats:
 	able learner{races of destiny} (human)
 	dodge (level 1)
 	weapon focus [greatsword] (fighter level 1)
-	mobility (fighter level 2)
+	power attack (fighter level 2)
 	improved toughness{complete warrior} (level 3)
 	heavy armor optimization{races of stone} (fighter level 4)
 	weapon specialization [greatsword] (level 6)
 
 feats wanted:
 	improved critical[ftr](BAB 8)
-	power attack[ftr]
-		cleave[ftr]
-			great cleave[ftr](BAB 4)
+	cleave[ftr]
+		great cleave[ftr](BAB 4)
 	melee weapon mastery[ftr](BAB 8){player's handbook 2}
 	greater weapon focus[ftr](ftr lvl 8)
 		greater weapon specialization[ftr](weapon focus, ftr lvl 12)
