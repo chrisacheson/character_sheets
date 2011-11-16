@@ -4,7 +4,7 @@ levels:
 	3	fighter (2)	31hp	(+6+4+2)	improved toughness feat, +1hp/hd
 	4	fighter (3)	45hp	(+10+4)		+1 intelligence
 	5	fighter	(4)	59hp	(+10+4)
-	6	fighter (5)	72hp	(+9+4)		weapon specialization feat
+	6	fighter (5)	72hp	(+9+4)
 
 status:
 	taken 18 damage
@@ -17,10 +17,10 @@ vitals:
 
 	fortitude: +4 base +3 con = +7, reflex: +4 base +1 dex = +5, will: +2 base +1 wis = +3
 
-	spot/listen:	+1 wis +7/+6			= +9/+8
-	hide/sneak:	+1 dex -4 ACP +5 EK +8/+8	= +11/+11
-	search:		+3 int +8			= +12
-	disable device:	+3 int +2 tools +8		= +14
+	spot/listen:	+1 wis +8/+7			= +9/+8
+	hide/sneak:	+1 dex -4 ACP +5 EK +9/+9	= +11/+11
+	search:		+3 int +9			= +12
+	disable device:	+3 int +2 tools +9		= +14
 
 experience:
 	0		joined party
@@ -67,19 +67,17 @@ new equipment:
 	orb of mental renewal
 	ever-full mug
 
-party loot:
+old party loot:
 	potion of mage armor		50gp
 	masterwork breastplate		350gp
 	+1 full plate
 	everburning torch
+	alchemical silver dagger
+	horse and cart
+
+party loot:
 	bag of holding (type 1)
 	druid's vestments
-
-chris and rya loot:
-	alchemical silver dagger
-
-planned levels:
-	6	fighter (5)
 
 stats:
 	strength	15
@@ -172,29 +170,34 @@ feats:
 	able learner{races of destiny} (human)
 	dodge (level 1)
 	weapon focus [greatsword] (fighter level 1)
-	power attack (fighter level 2)
+	resolute{complete champion alt class feature} (fighter level 2)
 	improved toughness{complete warrior} (level 3)
 	heavy armor optimization{races of stone} (fighter level 4)
 	weapon specialization [greatsword] (level 6)
 
 feats wanted:
-	improved critical[ftr](BAB 8)
-	cleave[ftr]
-		great cleave[ftr](BAB 4)
+	power attack[ftr]
+		cleave[ftr]
+			great cleave[ftr](BAB 4)
 	melee weapon mastery[ftr](BAB 8){player's handbook 2}
 	greater weapon focus[ftr](ftr lvl 8)
 		greater weapon specialization[ftr](weapon focus, ftr lvl 12)
+			weapon supremacy(melee weapon mastery, ftr lvl 18){player's handbook 2}
+	armor specialization(BAB 12){player's handbook 2}
+	overpowering attack{player's handbook 2 alt class feature}(ftr lvl 16 feat slot only)
 
 feats maybe wanted:
-	armor specialization(BAB 12){player's handbook 2}
+	improved critical[ftr](BAB 8)
 	shadow striker[ftr](hide 12, move silently 12){player's handbook 2}
 	subduing strike{book of exalted deeds}
 	improved initiative
 		danger sense{complete adventurer}
-	quick draw[ftr]
 	allied defense(combat expertise[ftr](int 13)){forgotten realms - shining south}
 	improved combat expertise[ftr](int 13, combat expertise, BAB 6){complete warrior} - only take this with allied defense
 	greater heavy armor optimization[ftr](BAB 8){races of stone}
+	overwhelming assault(BAB 15){player's handbook 2}
+	slashing flurry(BAB 14, melee weapon mastery){player's handbook 2}
+	mage slayer(spellcraft 2){complete arcane}
 
 shovel
 crowbar
