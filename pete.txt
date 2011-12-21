@@ -8,19 +8,17 @@ levels:
 	7	fighter (6)	79hp	(+3+4)
 
 status:
-	taken 40 damage
-	fatigued (-2 str, -2 dex)
 
 vitals:
-	attack (greatsword): +6 BAB +2 str +1 magic +1 weapon focus = +10
+	attack (greatsword): +6 BAB +2 str +1 magic +1 weapon focus = +10/+5
 	damage (greatsword): +3 str +2 spec +1 magic +1d6 frost = +6 +1d6
 
-	AC (adamantine full plate): 10 base +8 armor +1 dex +1 HAO +1 ring = 21 +2 dodge, 3/- DR
+	AC (adamantine full plate): 10 base +8 armor +3 enchantment +2 dex +1 HAO +1 ring = 25 +2 dodge, 3/- DR
 
-	fortitude: +5 base +3 con = +8, reflex: +4 base +1 dex = +5, will: +2 base +1 wis = +3
+	fortitude: +5 base +3 con = +8, reflex: +4 base +2 dex = +6, will: +2 base +1 wis = +3
 
 	spot/listen:	+1 wis +9/+8			= +10/+9
-	hide/sneak:	+1 dex -4 ACP +5 EK +10/+10	= +12/+12
+	hide/sneak:	+2 dex -2 ACP +5 EK +10/+10	= +15/+15
 	search:		+3 int +10			= +13
 	disable device:	+3 int +2 tools +10		= +15
 
@@ -46,6 +44,7 @@ experience:
 	6430	(+900)	spectators
 	430	(-6000)	level 7
 	1330	(+800)	lesser spawn of juiblex
+	1855	(+525)	gnolls
 
 gold:
 	4514			remaining from character gen
@@ -58,11 +57,12 @@ gold:
 	8079	(+700)		gold from stash after inferno spider
 	12079	(+4000)		gold from crazy wizard's storage room
 	11969	(-110)		2 potions of lesser vigor from ackbar
+	19819	(+7850)		sold loot
+	3819	(-16000)	enchanted armor
 
 new equipment:
 	+1 frost greatsword
-	+1 full plate
-	adamantine full plate
+	+3 adamantine full plate of nimbleness
 	masterwork composite longbow (+2 str)
 	got rid of old longbow
 	boots and cloak of elvenkind
@@ -74,18 +74,20 @@ new equipment:
 	orb of mental renewal
 	ever-full mug
 	ring of protection +1
-
-old party loot:
-	potion of mage armor		50gp
-	masterwork breastplate		350gp
-	+1 full plate
 	everburning torch
 	alchemical silver dagger
 	horse and cart
+	bag of holding (type 1)
+	honest ackbar's lamp
+	favor from aspect of juiblex in lieu of quest book
+	base of operations in inn
+	masterwork chain shirt		250gp
+
+chris/conrad loot:
+	4 masterwork shortswords	310gp each
+	potion of cat's grace		50gp
 
 party loot:
-	bag of holding (type 1)
-	druid's vestments
 
 stats:
 	strength	15
