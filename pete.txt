@@ -8,6 +8,8 @@ levels:
 	7	fighter (6)	79hp	(+3+4)
 
 status:
+	taken 34 damage
+	bull's strength (+4 str, +2 attack, +3 damage)
 
 vitals:
 	attack (greatsword): +6 BAB +2 str +1 magic +1 weapon focus = +10/+5
@@ -45,6 +47,9 @@ experience:
 	430	(-6000)	level 7
 	1330	(+800)	lesser spawn of juiblex
 	1855	(+525)	gnolls
+	2205	(+350)	wererats
+	2555	(+350)	phase spider
+	3605	(+1050)	juvenile green dragon
 
 gold:
 	4514			remaining from character gen
@@ -59,6 +64,7 @@ gold:
 	11969	(-110)		2 potions of lesser vigor from ackbar
 	19819	(+7850)		sold loot
 	3819	(-16000)	enchanted armor
+	7175	(+3356)		juvenile green dragon hoard
 
 new equipment:
 	+1 frost greatsword
@@ -86,6 +92,9 @@ new equipment:
 chris/conrad loot:
 	4 masterwork shortswords	310gp each
 	potion of cat's grace		50gp
+
+chris/conrad/elizabeth loot:
+	3 silver rapiers
 
 party loot:
 
