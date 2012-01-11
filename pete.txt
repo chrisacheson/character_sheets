@@ -8,8 +8,9 @@ levels:
 	7	fighter (6)	79hp	(+3+4)
 
 status:
-	taken 34 damage
-	bull's strength (+4 str, +2 attack, +3 damage)
+	bull's strength
+	blessed
+	29 damage
 
 vitals:
 	attack (greatsword): +6 BAB +2 str +1 magic +1 weapon focus = +10/+5
@@ -50,6 +51,9 @@ experience:
 	2205	(+350)	wererats
 	2555	(+350)	phase spider
 	3605	(+1050)	juvenile green dragon
+	4480	(+875)	wights
+	4680	(+200)	rival adventurer half orc bard
+	5380	(+700)	hill giant
 
 gold:
 	4514			remaining from character gen
@@ -65,6 +69,7 @@ gold:
 	19819	(+7850)		sold loot
 	3819	(-16000)	enchanted armor
 	7175	(+3356)		juvenile green dragon hoard
+	7508	(+333)		dragon quest reward
 
 new equipment:
 	+1 frost greatsword
@@ -74,14 +79,14 @@ new equipment:
 	boots and cloak of elvenkind
 	1 vials antitoxin
 	3 vials holy water
-	2 potions of cure light wounds
+	3 potions of cure light wounds
 	used 2 arrows
 	orb of physical renewal
 	orb of mental renewal
 	ever-full mug
 	ring of protection +1
 	everburning torch
-	alchemical silver dagger
+	alchemical silver dagger	22gp
 	horse and cart
 	bag of holding (type 1)
 	honest ackbar's lamp
@@ -94,7 +99,13 @@ chris/conrad loot:
 	potion of cat's grace		50gp
 
 chris/conrad/elizabeth loot:
-	3 silver rapiers
+	3 silver rapiers		110gp each
+	wand of light (49 charges)
+	1 potion of mage armor
+	1 potion of eagle's splendor
+	fancy bardy clothes
+	masterwork fife
+	rapier
 
 party loot:
 
