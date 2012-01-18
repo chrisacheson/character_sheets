@@ -6,24 +6,27 @@ levels:
 	5	fighter	(4)	59hp	(+10+4)
 	6	fighter (5)	72hp	(+9+4)
 	7	fighter (6)	79hp	(+3+4)
+	8	fighter (7)	94hp	(+3+5+7)	+1 constitution
 
 status:
+	62 damage
 	bull's strength
-	blessed
-	29 damage
 
 vitals:
-	attack (greatsword): +6 BAB +2 str +1 magic +1 weapon focus = +10/+5
+	attack (greatsword): +7 BAB +2 str +1 magic +1 weapon focus = +11/+6
 	damage (greatsword): +3 str +2 spec +1 magic +1d6 frost = +6 +1d6
+
+	attack (composite longbow): +7 BAB +2 dex +1 masterwork = +10/+5
+	damage (composite longbow): +2 str = +2 +1d8
 
 	AC (adamantine full plate): 10 base +8 armor +3 enchantment +2 dex +1 HAO +1 ring = 25 +2 dodge, 3/- DR
 
 	fortitude: +5 base +3 con = +8, reflex: +4 base +2 dex = +6, will: +2 base +1 wis = +3
 
-	spot/listen:	+1 wis +9/+8			= +10/+9
-	hide/sneak:	+2 dex -2 ACP +5 EK +10/+10	= +15/+15
-	search:		+3 int +10			= +13
-	disable device:	+3 int +2 tools +10		= +15
+	spot/listen:	+1 wis +10/+9			= +11/+10
+	hide/sneak:	+2 dex -2 ACP +5 EK +11/+11	= +16/+16
+	search:		+3 int +11			= +14
+	disable device:	+3 int +2 tools +11		= +16
 
 experience:
 	0		joined party
@@ -54,6 +57,11 @@ experience:
 	4480	(+875)	wights
 	4680	(+200)	rival adventurer half orc bard
 	5380	(+700)	hill giant
+	6665	(+1285)	ogres
+	6780	(+115)	shady rogue
+	7250	(+470)	will-o-the-wisp
+	250	(-7000)	level 8
+	1320	(+1070)	hill giants
 
 gold:
 	4514			remaining from character gen
@@ -70,6 +78,7 @@ gold:
 	3819	(-16000)	enchanted armor
 	7175	(+3356)		juvenile green dragon hoard
 	7508	(+333)		dragon quest reward
+	7233	(-275)		bought wand of lesser vigor from ackbar
 
 new equipment:
 	+1 frost greatsword
@@ -80,7 +89,7 @@ new equipment:
 	1 vials antitoxin
 	3 vials holy water
 	3 potions of cure light wounds
-	used 2 arrows
+	used 4 arrows
 	orb of physical renewal
 	orb of mental renewal
 	ever-full mug
@@ -105,14 +114,18 @@ chris/conrad/elizabeth loot:
 	1 potion of eagle's splendor
 	fancy bardy clothes
 	masterwork fife
-	rapier
+	2 rapiers
+	+1 greatclub
+	weird walking stick
+	steel heavy shield
+	masterwork mace
 
 party loot:
 
 stats:
 	strength	15
 	dexterity	15
-	constitution	17
+	constitution	17	18 at level 8
 	intelligence	15	16 at level 4
 	wisdom		12
 	charisma	11
@@ -200,6 +213,18 @@ skills:
 		open lock	4
 		search		10 (+1)
 		spot		9 (+1)
+		tumble		5
+		use rope	4
+	level 8 (fighter, 6 pts):
+		climb		4
+		disable device	11 (+1)
+		hide		11 (+1)
+		jump		4
+		listen		9 (+1)
+		move silently	11 (+1)
+		open lock	4
+		search		11 (+1)
+		spot		10 (+1)
 		tumble		5
 		use rope	4
 
