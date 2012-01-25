@@ -9,8 +9,10 @@ levels:
 	8	fighter (7)	94hp	(+3+5+7)	+1 constitution
 
 status:
-	62 damage
+	24 damage
+	5 str damage
 	bull's strength
+	need exp for hag fight 3 cr 4, 2 cr 0.5
 
 vitals:
 	attack (greatsword): +7 BAB +2 str +1 magic +1 weapon focus = +11/+6
