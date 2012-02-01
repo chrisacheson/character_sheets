@@ -9,10 +9,8 @@ levels:
 	8	fighter (7)	94hp	(+3+5+7)	+1 constitution
 
 status:
-	24 damage
-	5 str damage
+	8 damage
 	bull's strength
-	need exp for hag fight 3 cr 4, 2 cr 0.5
 
 vitals:
 	attack (greatsword): +7 BAB +2 str +1 magic +1 weapon focus = +11/+6
@@ -64,6 +62,8 @@ experience:
 	7250	(+470)	will-o-the-wisp
 	250	(-7000)	level 8
 	1320	(+1070)	hill giants
+	1770	(+450)	sea hags and zombies
+	2370	(+600)	bearded devils
 
 gold:
 	4514			remaining from character gen
@@ -81,6 +81,9 @@ gold:
 	7175	(+3356)		juvenile green dragon hoard
 	7508	(+333)		dragon quest reward
 	7233	(-275)		bought wand of lesser vigor from ackbar
+	11593	(+4360)		sea hag treasure
+	11693	(+100)		sea hag bounty
+	12965	(+1272)		sold loot
 
 new equipment:
 	+1 frost greatsword
@@ -97,32 +100,15 @@ new equipment:
 	ever-full mug
 	ring of protection +1
 	everburning torch
-	alchemical silver dagger	22gp
 	horse and cart
 	bag of holding (type 1)
 	honest ackbar's lamp
 	favor from aspect of juiblex in lieu of quest book
 	base of operations in inn
-	masterwork chain shirt		250gp
-
-chris/conrad loot:
-	4 masterwork shortswords	310gp each
-	potion of cat's grace		50gp
 
 chris/conrad/elizabeth loot:
-	3 silver rapiers		110gp each
-	wand of light (49 charges)
-	1 potion of mage armor
-	1 potion of eagle's splendor
-	fancy bardy clothes
-	masterwork fife
-	2 rapiers
-	+1 greatclub
+	wand of light (49 charges, quest item)
 	weird walking stick
-	steel heavy shield
-	masterwork mace
-
-party loot:
 
 stats:
 	strength	15
