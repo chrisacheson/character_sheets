@@ -1,0 +1,17 @@
+9000gp	cloak of resistance +3
+7000gp		+4
+9000gp		+5
+9000gp	upgrade armor to +4 (+5)
+11000gp		+5 (+6)
+3750gp	add shadow ability to armor
+11250gp		improved
+18750gp		greater
+3750gp	add silent moves ability to armor
+11250gp		improved
+18750gp		greater
+18000gp	add an elemental resistance ability to armor (there are 5)
+24000gp		improved
+24000gp		greater
+9165gp	+3 buckler (after getting improved buckler defense, or consider animated shield as alternative)
+7000gp		+4
+9000gp		+5
