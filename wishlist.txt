@@ -12,6 +12,11 @@
 18000gp	add an elemental resistance ability to armor (there are 5)
 24000gp		improved
 24000gp		greater
+500gp	add agility ability to armor
+4000gp		improved
+8000gp		greater
+2000gp	add called ability to armor
+2000gp	add called ability to shield
 9165gp	+3 buckler (after getting improved buckler defense, or consider animated shield as alternative)
 7000gp		+4
 9000gp		+5
