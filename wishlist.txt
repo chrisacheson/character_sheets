@@ -1,4 +1,6 @@
-9000gp	cloak of resistance +3
+1000gp	cloak of resistance +1
+3000gp		+2
+5000gp		+3
 7000gp		+4
 9000gp		+5
 9000gp	upgrade armor to +4 (+5)
@@ -12,6 +14,48 @@
 18000gp	add an elemental resistance ability to armor (there are 5)
 24000gp		improved
 24000gp		greater
-9165gp	+3 buckler (after getting improved buckler defense, or consider animated shield as alternative)
-7000gp		+4
-9000gp		+5
+22500gp	add deep ability to armor [stormwrack]
+3000gp	greater crystal of screening armor crystal [mic]
+8000gp	greater iron ward diamond armor crystal [mic]
+4180gp	tower shield with animated ability (material?)
+5000gp		+1 (+3)
+7000gp		+2 (+4)
+9000gp		+3 (+5)
+11000gp		+4 (+6)
+13000gp		+5 (+7)
+5000gp	greater crystal of arrow deflection shield crystal [mic]
+500gp	crystal of bent sight shield crystal [mic]
+22060gp	luck blade
+6000gp	upgrade ring of protection to +2
+10000gp		+3
+14000gp		+4
+18000gp		+5
+4000gp	amulet of health +2 (consider amulet of natural armor as alternative)
+12000gp		+4
+20000gp		+6
+16000gp	belt of giant strength +4
+20000gp		+6
+16000gp	winged boots
+2500gp	eyes of the eagle
+6250gp	gloves of swimming and climbing
+12000gp	goggles of night
+2000gp	handy haversack
+5000gp	+1 AC ioun stone
+10000gp	alertness ioun stone
+20000gp	regeneration ioun stone
+30000gp	+1 attack/save/skill/ability ioun stone
+3500gp lens of detection
+3000gp rope of climbing
+16000gp scabbard of keen edges
+
+weapon abilities to consider:
+ghost touch (+1)
+speed (+3)
+wounding (+2)
+
+special materials to consider:
+darksteel/dlarun/fever iron/hizagkuur (weapon) [magic of faerun]
+blue ice (weapon) [frostburn]
+green starmetal (weapon) [complete arcane]
+targath (arrow or dagger) [eberron campaign setting]
+astral driftmetal (shield) [arms and equipment guide]
