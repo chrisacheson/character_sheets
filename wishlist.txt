@@ -15,6 +15,10 @@
 24000gp		improved
 24000gp		greater
 22500gp	add deep ability to armor [stormwrack]
+500gp	add agility ability to armor [mic]
+4000gp		improved
+8000gp		greater
+2000gp	add called ability to armor [mic]
 3000gp	greater crystal of screening armor crystal [mic]
 8000gp	greater iron ward diamond armor crystal [mic]
 4180gp	tower shield with animated ability (material?)
@@ -23,6 +27,7 @@
 9000gp		+3 (+5)
 11000gp		+4 (+6)
 13000gp		+5 (+7)
+2000gp	add called ability to shield [mic]
 5000gp	greater crystal of arrow deflection shield crystal [mic]
 500gp	crystal of bent sight shield crystal [mic]
 22060gp	luck blade
