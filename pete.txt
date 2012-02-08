@@ -9,8 +9,8 @@ levels:
 	8	fighter (7)	94hp	(+3+5+7)	+1 constitution
 
 status:
-	8 damage
-	bull's strength
+	7 damage
+	crystal has 20 damage
 
 vitals:
 	attack (greatsword): +7 BAB +2 str +1 magic +1 weapon focus = +11/+6
@@ -19,9 +19,9 @@ vitals:
 	attack (composite longbow): +7 BAB +2 dex +1 masterwork = +10/+5
 	damage (composite longbow): +2 str = +2 +1d8
 
-	AC (adamantine full plate): 10 base +8 armor +3 enchantment +2 dex +1 HAO +1 ring = 25 +2 dodge, 3/- DR
+	AC (adamantine full plate): 10 base +8 armor +3 enchantment +2 dex +1 HAO +1 ring = 25 +2 dodge, 3+5/- DR
 
-	fortitude: +5 base +3 con = +8, reflex: +4 base +2 dex = +6, will: +2 base +1 wis = +3
+	fortitude: +5 base +3 con +1 cloak = +9, reflex: +4 base +2 dex +1 cloak = +7, will: +2 base +1 wis +1 cloak = +4
 
 	spot/listen:	+1 wis +10/+9			= +11/+10
 	hide/sneak:	+2 dex -2 ACP +5 EK +11/+11	= +16/+16
@@ -64,6 +64,7 @@ experience:
 	1320	(+1070)	hill giants
 	1770	(+450)	sea hags and zombies
 	2370	(+600)	bearded devils
+	3170	(+800)	giant crab and pirate wizard
 
 gold:
 	4514			remaining from character gen
@@ -84,13 +85,19 @@ gold:
 	11593	(+4360)		sea hag treasure
 	11693	(+100)		sea hag bounty
 	12965	(+1272)		sold loot
+	215	(-12750)	bought iron ward diamond, cloak of resistance, shadow on armor
+	2090	(+1875)		sold cloak of elvenkind
 
 new equipment:
 	+1 frost greatsword
-	+3 adamantine full plate of nimbleness
+	+3 adamantine full plate
+		nimbleness (+1)
+		shadow (3750gp)
+	greater iron ward diamond
+	cloak of resistance +1
 	masterwork composite longbow (+2 str)
 	got rid of old longbow
-	boots and cloak of elvenkind
+	boots of elvenkind
 	1 vials antitoxin
 	3 vials holy water
 	3 potions of cure light wounds
@@ -109,6 +116,9 @@ new equipment:
 chris/conrad/elizabeth loot:
 	wand of light (49 charges, quest item)
 	weird walking stick
+	mithril buckler
+	masterwork spear
+	pirate outfit
 
 stats:
 	strength	15
