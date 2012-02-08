@@ -1,12 +1,10 @@
-1000gp	cloak of resistance +1
-3000gp		+2
+3000gp	upgrade cloak of resistance to +2
 5000gp		+3
 7000gp		+4
 9000gp		+5
 9000gp	upgrade armor to +4 (+5)
 11000gp		+5 (+6)
-3750gp	add shadow ability to armor
-11250gp		improved
+11250gp	add improved shadow ability to armor
 18750gp		greater
 3750gp	add silent moves ability to armor
 11250gp		improved
@@ -27,7 +25,6 @@
 4000gp		improved
 8000gp		greater
 3000gp	greater crystal of screening armor crystal [mic]
-8000gp	greater iron ward diamond armor crystal [mic]
 4180gp	tower shield with animated ability (material?)
 5000gp		+1 (+3)
 7000gp		+2 (+4)
@@ -78,5 +75,4 @@ special materials to consider:
 darksteel/dlarun/fever iron/hizagkuur (weapon) [magic of faerun]
 blue ice (weapon) [frostburn]
 green starmetal (weapon) [complete arcane]
-targath (arrow or dagger) [eberron campaign setting]
 astral driftmetal (shield) [arms and equipment guide]
