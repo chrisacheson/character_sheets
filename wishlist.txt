@@ -19,6 +19,13 @@
 4000gp		improved
 8000gp		greater
 2000gp	add called ability to armor [mic]
+6000gp	add linked ability to armor [mic]
+3000gp	add mindarmor ability to armor [mic]
+5000gp	add quickness ability to armor [mic]
+6000gp	add speed ability to armor [mic]
+500gp	add stamina ability to armor [mic]
+4000gp		improved
+8000gp		greater
 3000gp	greater crystal of screening armor crystal [mic]
 8000gp	greater iron ward diamond armor crystal [mic]
 4180gp	tower shield with animated ability (material?)
@@ -28,6 +35,7 @@
 11000gp		+4 (+6)
 13000gp		+5 (+7)
 2000gp	add called ability to shield [mic]
+6000gp	add speed ability to shield [mic]
 5000gp	greater crystal of arrow deflection shield crystal [mic]
 500gp	crystal of bent sight shield crystal [mic]
 22060gp	luck blade
@@ -52,11 +60,19 @@
 3500gp lens of detection
 3000gp rope of climbing
 16000gp scabbard of keen edges
+6000gp greater crystal of energy assault weapon crystal [mic]
+6000gp greater crystal of life drinking weapon crystal [mic]
 
 weapon abilities to consider:
 ghost touch (+1)
 speed (+3)
 wounding (+2)
+shadowstrike (5000gp) [mic]
+sizing (5000gp) [mic]
+vampiric (+2) [mic]
+
+armor abilities to consider:
+radiant (+4) [mic]
 
 special materials to consider:
 darksteel/dlarun/fever iron/hizagkuur (weapon) [magic of faerun]
