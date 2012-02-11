@@ -130,102 +130,20 @@ stats:
 	charisma	11
 
 skills:
-	level 1 (rogue, 44 pts):
-		climb		4
-		disable device	4
-		hide		4
-		jump		4
-		listen		4
-		move silently	4
-		open lock	4
-		search		4
-		spot		4
-		tumble		4
-		use rope	4
-	level 2 (fighter, 5 pts):
-		climb		4
-		disable device	5 (+1)
-		hide		5 (+1)
-		jump		4
-		listen		4
-		move silently	5 (+1)
-		open lock	4
-		search		5 (+1)
-		spot		4
-		tumble		5 (+1)
-		use rope	4
-	level 3 (fighter, 5 pts):
-		climb		4
-		disable device	6 (+1)
-		hide		6 (+1)
-		jump		4
-		listen		4
-		move silently	6 (+1)
-		open lock	4
-		search		6 (+1)
-		spot		5 (+1)
-		tumble		5
-		use rope	4
-	level 4 (fighter, 6 pts):
-		climb		4
-		disable device	7 (+1)
-		hide		7 (+1)
-		jump		4
-		listen		5 (+1)
-		move silently	7 (+1)
-		open lock	4
-		search		7 (+1)
-		spot		6 (+1)
-		tumble		5
-		use rope	4
-	level 5 (fighter, 6 pts):
-		climb		4
-		disable device	8 (+1)
-		hide		8 (+1)
-		jump		4
-		listen		6 (+1)
-		move silently	8 (+1)
-		open lock	4
-		search		8 (+1)
-		spot		7 (+1)
-		tumble		5
-		use rope	4
-	level 6 (fighter, 6 pts):
-		climb		4
-		disable device	9 (+1)
-		hide		9 (+1)
-		jump		4
-		listen		7 (+1)
-		move silently	9 (+1)
-		open lock	4
-		search		9 (+1)
-		spot		8 (+1)
-		tumble		5
-		use rope	4
-	level 7 (fighter, 6 pts):
-		climb		4
-		disable device	10 (+1)
-		hide		10 (+1)
-		jump		4
-		listen		8 (+1)
-		move silently	10 (+1)
-		open lock	4
-		search		10 (+1)
-		spot		9 (+1)
-		tumble		5
-		use rope	4
-	level 8 (fighter, 6 pts):
-		climb		4
-		disable device	11 (+1)
-		hide		11 (+1)
-		jump		4
-		listen		9 (+1)
-		move silently	11 (+1)
-		open lock	4
-		search		11 (+1)
-		spot		10 (+1)
-		tumble		5
-		use rope	4
+level		1	2	3	4	5	6	7	8	9	10
+points gained	44	5	5	6	6	6	6	6
+==========================================================================================
+climb		4	4	4	4	4	4	4	4
+disable device	4	5	6	7	8	9	10	11
+hide		4	5	6	7	8	9	10	11
+jump		4	4	4	4	4	4	4	4
+listen		4	4	4	5	6	7	8	9
+move silently	4	5	6	7	8	9	10	11
+open lock	4	4	4	4	4	4	4	4
+search		4	5	6	7	8	9	10	11
+spot		4	4	5	6	7	8	9	10
+tumble		4	5	5	5	5	5	5	5
+use rope	4	4	4	4	4	4	4	4
 
 languages:
 	common
@@ -264,10 +182,6 @@ feats maybe wanted:
 	overwhelming assault(BAB 15){player's handbook 2}
 	slashing flurry(BAB 14, melee weapon mastery){player's handbook 2}
 	mage slayer(spellcraft 2){complete arcane}
-
-shovel
-crowbar
-miner's pick
 
 equipment:
 	greatsword					50gp
