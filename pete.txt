@@ -87,6 +87,7 @@ gold:
 	12965	(+1272)		sold loot
 	215	(-12750)	bought iron ward diamond, cloak of resistance, shadow on armor
 	2090	(+1875)		sold cloak of elvenkind
+	2140	(+50)		correction: climber's kit not available as masterwork
 
 new equipment:
 	+1 frost greatsword
@@ -277,7 +278,7 @@ equipment:
 	200 foot silk rope				80gp
 	everburning torch				110gp
 	2 smokesticks with tindertwigs attached		42gp
-	masterwork climber's kit			130gp
+	climber's kit					80gp
 	masterwork thieves' tools			100gp
 	ascender/slider					20gp
 	collapsible grappling hook			3gp
