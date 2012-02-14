@@ -21,7 +21,9 @@ vitals:
 
 	AC (adamantine full plate): 10 base +8 armor +3 enchantment +2 dex +1 HAO +1 ring = 25 +2 dodge, 3+5/- DR
 
-	fortitude: +5 base +3 con +1 cloak = +9, reflex: +4 base +2 dex +1 cloak = +7, will: +2 base +1 wis +1 cloak = +4
+	fortitude: +5 base +3 con +2 vest = +10
+	reflex: +4 base +2 dex +2 vest = +8
+	will: +2 base +1 wis +2 vest = +5 +3 resolute
 
 	spot/listen:	+1 wis +10/+9			= +11/+10
 	hide/sneak:	+2 dex -2 ACP +5 EK +11/+11	= +16/+16
@@ -85,20 +87,18 @@ gold:
 	11593	(+4360)		sea hag treasure
 	11693	(+100)		sea hag bounty
 	12965	(+1272)		sold loot
-	215	(-12750)	bought iron ward diamond, cloak of resistance, shadow on armor
-	2090	(+1875)		sold cloak of elvenkind
-	2140	(+50)		correction: climber's kit not available as masterwork
+	13015	(+50)		correction: climber's kit not available as masterwork
+	1015	(-12000)	bought iron ward diamond, vest of resistance +2
 
 new equipment:
 	+1 frost greatsword
 	+3 adamantine full plate
 		nimbleness (+1)
-		shadow (3750gp)
 	greater iron ward diamond
-	cloak of resistance +1
+	vest of resistance +2
 	masterwork composite longbow (+2 str)
 	got rid of old longbow
-	boots of elvenkind
+	boots and cloak of elvenkind
 	1 vials antitoxin
 	3 vials holy water
 	3 potions of cure light wounds
