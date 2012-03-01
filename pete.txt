@@ -7,7 +7,7 @@ levels:
 	6	fighter (5)	72hp	(+9+4)
 	7	fighter (6)	79hp	(+3+4)
 	8	fighter (7)	94hp	(+3+5+7)	+1 constitution
-	rolled 3 for level 9 hp
+	9	fighter (8)	102hp	(+3+5)
 
 status:
 	14 damage
@@ -17,22 +17,22 @@ status:
 	recitation (+2 attack/save, -2 to enemy attack/save)
 
 vitals:
-	attack (greatsword): +7 BAB +2 str +1 magic +1 weapon focus = +11/+6
-	damage (greatsword): +3 str +2 spec +1 magic +1d6 frost = +6 +1d6
+	attack (greatsword): +8 BAB +2 str +1 magic +1 WF +2 MWM = +14/+9
+	damage (greatsword): +3 str +2 WS +2 MWM +1 magic +1d6 frost = +8 +1d6
 
-	attack (composite longbow): +7 BAB +2 dex +1 masterwork = +10/+5
+	attack (composite longbow): +8 BAB +2 dex +1 masterwork = +11/+6
 	damage (composite longbow): +2 str = +2 +1d8
 
-	AC (adamantine full plate): 10 base +8 armor +3 enchantment +2 dex +1 HAO +1 ring = 25 +2 dodge, 3+5/- DR
+	AC (adamantine full plate): 10 base +8 armor +3 magic +2 dex +2 (G)HAO +1 ring = 26 +2 dodge, 3+5/- DR
 
-	fortitude: +5 base +3 con +2 vest = +10
-	reflex: +4 base +2 dex +2 vest = +8
-	will: +2 base +1 wis +2 vest = +5 +3 resolute
+	fortitude: +6.333 base +3 con +2 vest = +11
+	reflex: +5.166 base +2 dex +2 vest = +9
+	will: +3.000 base +1 wis +2 vest = +6 +4 resolute
 
-	perception:	+1 wis +11			= +12
-	hide/sneak:	+2 dex -2 ACP +5 EK +11		= +16
-	open lock:	+2 dex +2 tools +11		= +15
-	disable device:	+3 int +2 tools +11		= +16
+	perception:	+1 wis +12			= +13
+	stealth:	+2 dex +5 EK +12		= +19 (+14 for SOH)
+	open lock:	+2 dex +2 tools +12		= +16
+	disable device:	+3 int +2 tools +12		= +17
 
 experience:
 	0		joined party
@@ -76,6 +76,7 @@ experience:
 	4975	(+200)	alarm trap
 	6175	(+1200)	giant crab and pirate fighter/mage
 	8075	(+1900) pirate boss battle
+	75	(-8000)	level 9
 
 gold:
 	4514			remaining from character gen
@@ -100,6 +101,7 @@ gold:
 	1015	(-12000)	bought iron ward diamond, vest of resistance +2
 	3515	(+2500)		pirate fighters/rogue/sorcerer loot
 	5265	(+1750)		pirate treasure hold
+	need treasure from pirate boss battle
 
 new equipment:
 	+1 frost greatsword
@@ -158,17 +160,17 @@ forgery + decipher script = ?
 
 skills:
 level		1	2	3	4	5	6	7	8	9	10
-points gained	44	5	5	6	6	6	6	6
+points gained	44	5	5	6	6	6	6	6	6
 ==========================================================================================
-athletics	4	4	4	4	4	4	4	4
-perception	4	5	6	7	8	9	10	11
-stealth		4	5	6	7	8	9	10	11
-disable device	4	5	6	7	8	9	10	11
-open lock	4	5	6	7	8	9	10	11
-tumble		4	5	5	5	5	5	5	5
-use rope	4	4	4	4	4	4	4	4
+athletics	4	4	4	4	4	4	4	4	4
+perception	4	5	6	7	8	9	10	11	12
+stealth		4	5	6	7	8	9	10	11	12
+disable device	4	5	6	7	8	9	10	11	12
+open lock	4	5	6	7	8	9	10	11	12
+tumble		4	5	5	5	5	5	5	5	5
+use rope	4	4	4	4	4	4	4	4	4
 
-extra		16		1	2	2	2	2	2
+extra		16		1	2	2	2	2	2	2
 
 languages:
 	common
@@ -184,26 +186,20 @@ feats:
 	heavy armor optimization{races of stone} (fighter level 4)
 	weapon specialization [greatsword] (level 6)
 	power attack (fighter level 6)
+	greater heavy armor optimization{races of stone} (level 9)
+	melee weapon mastery{player's handbook 2} [slashing] (fighter level 8)
 
 feats wanted:
 	cleave[ftr]
 		great cleave[ftr](BAB 4)
-	melee weapon mastery[ftr](BAB 8){player's handbook 2}
 	greater weapon focus[ftr](ftr lvl 8)
 		greater weapon specialization[ftr](weapon focus, ftr lvl 12)
-			weapon supremacy(melee weapon mastery, ftr lvl 18){player's handbook 2}
-	armor specialization(BAB 12){player's handbook 2}
+			weapon supremacy(ftr lvl 18){player's handbook 2}
 	overpowering attack{player's handbook 2 alt class feature}(ftr lvl 16 feat slot only)
 
 feats maybe wanted:
-	improved critical[ftr](BAB 8)
-	shadow striker[ftr](hide 12, move silently 12){player's handbook 2}
-	subduing strike{book of exalted deeds}
-	improved initiative
-		danger sense{complete adventurer}
 	allied defense(combat expertise[ftr](int 13)){forgotten realms - shining south}
 	improved combat expertise[ftr](int 13, combat expertise, BAB 6){complete warrior} - only take this with allied defense
-	greater heavy armor optimization[ftr](BAB 8){races of stone}
 	overwhelming assault(BAB 15){player's handbook 2}
 	slashing flurry(BAB 14, melee weapon mastery){player's handbook 2}
 	mage slayer(spellcraft 2){complete arcane}
