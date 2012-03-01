@@ -7,11 +7,14 @@ levels:
 	6	fighter (5)	72hp	(+9+4)
 	7	fighter (6)	79hp	(+3+4)
 	8	fighter (7)	94hp	(+3+5+7)	+1 constitution
+	rolled 3 for level 9 hp
 
 status:
-	52 damage
-	crystal has 50 damage
+	14 damage
+	crystal has 42 damage
 	bull's strength
+	bless (+1 attack/save vs fear)
+	recitation (+2 attack/save, -2 to enemy attack/save)
 
 vitals:
 	attack (greatsword): +7 BAB +2 str +1 magic +1 weapon focus = +11/+6
@@ -28,6 +31,7 @@ vitals:
 
 	perception:	+1 wis +11			= +12
 	hide/sneak:	+2 dex -2 ACP +5 EK +11		= +16
+	open lock:	+2 dex +2 tools +11		= +15
 	disable device:	+3 int +2 tools +11		= +16
 
 experience:
@@ -69,6 +73,9 @@ experience:
 	3170	(+800)	giant crab and pirate wizard
 	3175	(+5)	poison needle trap
 	4775	(+1600)	pirate fighters/rogue/sorcerer
+	4975	(+200)	alarm trap
+	6175	(+1200)	giant crab and pirate fighter/mage
+	8075	(+1900) pirate boss battle
 
 gold:
 	4514			remaining from character gen
@@ -92,6 +99,7 @@ gold:
 	13015	(+50)		correction: climber's kit not available as masterwork
 	1015	(-12000)	bought iron ward diamond, vest of resistance +2
 	3515	(+2500)		pirate fighters/rogue/sorcerer loot
+	5265	(+1750)		pirate treasure hold
 
 new equipment:
 	+1 frost greatsword
@@ -132,6 +140,8 @@ chris/conrad/elizabeth/emily loot:
 	rapier +1
 	buckler
 	leather armor
+	cursed ring of clumsiness (looks like a ring of feather fall)
+	staff of charming
 
 stats:
 	strength	15
@@ -154,11 +164,11 @@ athletics	4	4	4	4	4	4	4	4
 perception	4	5	6	7	8	9	10	11
 stealth		4	5	6	7	8	9	10	11
 disable device	4	5	6	7	8	9	10	11
-open lock	4	4	4	4	4	4	4	4
+open lock	4	5	6	7	8	9	10	11
 tumble		4	5	5	5	5	5	5	5
 use rope	4	4	4	4	4	4	4	4
 
-extra		16	1	2	3	3	3	3	3
+extra		16		1	2	2	2	2	2
 
 languages:
 	common
