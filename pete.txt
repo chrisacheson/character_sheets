@@ -25,12 +25,12 @@ vitals:
 
 	AC (adamantine full plate): 10 base +8 armor +3 magic +2 dex +2 (G)HAO +1 ring = 26 +2 dodge, 3+5/- DR
 
-	fortitude: +6.333 base +3 con +2 vest = +11
-	reflex: +5.166 base +2 dex +2 vest = +9
-	will: +3.000 base +1 wis +2 vest = +6 +4 resolute
+	fortitude: +6 1/3 base +3 con +2 vest = +11
+	reflex: +5 1/6 base +2 dex +2 vest = +9
+	will: +3 base +1 wis +2 vest = +6 +4 resolute
 
 	perception:	+1 wis +12			= +13
-	stealth:	+2 dex +5 EK +12		= +19 (+14 for SOH)
+	stealth:	+2 dex +5 EK +12		= +19 (hide/sneak only)
 	open lock:	+2 dex +2 tools +12		= +16
 	disable device:	+3 int +2 tools +12		= +17
 
@@ -90,7 +90,7 @@ gold:
 	12079	(+4000)		gold from crazy wizard's storage room
 	11969	(-110)		2 potions of lesser vigor from ackbar
 	19819	(+7850)		sold loot
-	3819	(-16000)	enchanted armor
+	3819	(-16000)	enchanted armor from +0 to +3 w/ nimbleness
 	7175	(+3356)		juvenile green dragon hoard
 	7508	(+333)		dragon quest reward
 	7233	(-275)		bought wand of lesser vigor from ackbar
@@ -156,53 +156,68 @@ stats:
 hide + move silently + sleight of hand = stealth (dex)
 listen + spot + search = perception (wis)
 jump + climb + ride + swim = athletics (str)
-forgery + decipher script = ?
+forgery + decipher script = ? (int)
+balance + tumble = acrobatics (dex)
 
 skills:
-level		1	2	3	4	5	6	7	8	9	10
-points gained	44	5	5	6	6	6	6	6	6
+level		 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20     goal
+points gained	 4  4  5  5  6  6  6  6  6
 ==========================================================================================
-athletics	4	4	4	4	4	4	4	4	4
-perception	4	5	6	7	8	9	10	11	12
-stealth		4	5	6	7	8	9	10	11	12
-disable device	4	5	6	7	8	9	10	11	12
-open lock	4	5	6	7	8	9	10	11	12
-tumble		4	5	5	5	5	5	5	5	5
-use rope	4	4	4	4	4	4	4	4	4
+acrobatics	 4  5  6  6  6  6  6  6  6
+athletics	 4  4  4  4  4  6  8  8  8                                      11 (climb/jump) to 13 (swim)
+use rope	 4  4  4  6  6  6  6  6  6
+perception	 4  5  6  7  8  9 10 11 12                                      max
+stealth		 4  5  6  7  8  9 10 11 12                                      max
+bluff		 4  4  4  4  5  5  5  5  5
+disguise	 4  4  4  4  4  4  4  4  4
+forge/decipher	 4  4  4  4  5  5  5  5  5
+disable device	 4  5  6  7  8  9 10 11 12                                      25 (safe vs DC 35)
+open lock	 4  5  6  7  8  9 10 11 12                                      26 (take 10 vs DC 40)
+use magic dev	 4  4  4  4  4  4  4  4  4
+tricks{CS}
+ twisted charge	                      2
+ spot weak pt	                         2
+ clarity of vis
 
-extra		16		1	2	2	2	2	2	2
+skill synergies:
+	bluff		+2 on diplomacy, disguise, intimidate, sleight of hand
+	decipher script	+2 on use magic device for scrolls
+	jump		+2 on tumble
+	search		+2 on survival for tracking
+	tumble		+2 on balance, jump
+	use rope	+2 on climb with rope, escape artist with rope
 
 languages:
-	common
-	undercommon
-	elven
+	common	(automatic)
+	undercommon (starting int bonus)
+	elven (starting int bonus)
 
 feats:
-	able learner{races of destiny} (human)
+	able learner{RoD} (human)
 	dodge (level 1)
 	weapon focus [greatsword] (fighter level 1)
-	resolute{complete champion alt class feature} (fighter level 2)
-	improved toughness{complete warrior} (level 3)
-	heavy armor optimization{races of stone} (fighter level 4)
+	resolute{CC ACF} (fighter level 2)
+	improved toughness{CW} (level 3)
+	heavy armor optimization{RoS} (fighter level 4)
 	weapon specialization [greatsword] (level 6)
 	power attack (fighter level 6)
-	greater heavy armor optimization{races of stone} (level 9)
-	melee weapon mastery{player's handbook 2} [slashing] (fighter level 8)
+	greater heavy armor optimization{RoS} (level 9)
+	melee weapon mastery{PHB2} [slashing] (fighter level 8)
 
 feats wanted:
 	cleave[ftr]
 		great cleave[ftr](BAB 4)
 	greater weapon focus[ftr](ftr lvl 8)
 		greater weapon specialization[ftr](weapon focus, ftr lvl 12)
-			weapon supremacy(ftr lvl 18){player's handbook 2}
-	overpowering attack{player's handbook 2 alt class feature}(ftr lvl 16 feat slot only)
+			weapon supremacy(ftr lvl 18){PHB2}
+	overpowering attack{PHB2 ACF}(ftr lvl 16 feat slot only)
 
 feats maybe wanted:
-	allied defense(combat expertise[ftr](int 13)){forgotten realms - shining south}
-	improved combat expertise[ftr](int 13, combat expertise, BAB 6){complete warrior} - only take this with allied defense
-	overwhelming assault(BAB 15){player's handbook 2}
-	slashing flurry(BAB 14, melee weapon mastery){player's handbook 2}
-	mage slayer(spellcraft 2){complete arcane}
+	allied defense(combat expertise[ftr](int 13)){FR:SS}
+	improved combat expertise[ftr](int 13, combat expertise, BAB 6){CW} - only take this with allied defense
+	overwhelming assault(BAB 15){PHB2}
+	slashing flurry(BAB 14, melee weapon mastery){PHB2}
+	mage slayer(spellcraft 2){CA}
 
 equipment:
 	greatsword					50gp
