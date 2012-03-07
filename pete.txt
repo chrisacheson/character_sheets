@@ -10,11 +10,11 @@ levels:
 	9	fighter (8)	102hp	(+3+5)
 
 status:
-	14 damage
-	crystal has 42 damage
+	69 damage
+	crystal has 35 damage
 	bull's strength
-	bless (+1 attack/save vs fear)
-	recitation (+2 attack/save, -2 to enemy attack/save)
+	shaken (-1 attack)
+	recitation (+2 attacks/saves/skills, -2 to enemies)
 
 vitals:
 	attack (greatsword): +8 BAB +2 str +1 magic +1 WF +2 MWM = +14/+9
@@ -77,6 +77,9 @@ experience:
 	6175	(+1200)	giant crab and pirate fighter/mage
 	8075	(+1900) pirate boss battle
 	75	(-8000)	level 9
+	1425	(+1350)	fled from kraken
+	2325	(+900)	avoral
+	4125	(+1800)	young adult dragon
 
 gold:
 	4514			remaining from character gen
@@ -101,7 +104,7 @@ gold:
 	1015	(-12000)	bought iron ward diamond, vest of resistance +2
 	3515	(+2500)		pirate fighters/rogue/sorcerer loot
 	5265	(+1750)		pirate treasure hold
-	need treasure from pirate boss battle
+	5590	(+325)		pirate boss battle treasure
 
 new equipment:
 	+1 frost greatsword
@@ -115,7 +118,7 @@ new equipment:
 	1 vials antitoxin
 	3 vials holy water
 	3 potions of cure light wounds
-	used 4 arrows
+	used 8 arrows
 	orb of physical renewal
 	orb of mental renewal
 	ever-full mug
@@ -144,6 +147,11 @@ chris/conrad/elizabeth/emily loot:
 	leather armor
 	cursed ring of clumsiness (looks like a ring of feather fall)
 	staff of charming
+	ring of you haven't identified it yet
+	unidentified magic broom
+
+emily treasure:
+	325
 
 stats:
 	strength	15

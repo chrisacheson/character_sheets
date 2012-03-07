@@ -28,7 +28,7 @@
 10000		+3
 14000		+4
 18000		+5
-2000	amulet of natural armor +1 (consider psycoactive skin of the defender [mic, 32kgp] as alternative)
+2000	amulet of natural armor +1
 6000		+2
 10000		+3
 14000		+4
@@ -65,6 +65,10 @@
 1400	anklet of translocation [mic]
 6000	boots of big stepping [mic]
 5000	boots of swift passage [mic]
+9850	+2 hizagkuur greatsword
+10000		+3
+14000		+4
+18000		+5
 
 weapon abilities to consider:
 ghost touch (+1)
