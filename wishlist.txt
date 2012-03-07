@@ -3,15 +3,9 @@
 9000		+5
 9000	upgrade armor to +4 (+5)
 11000		+5 (+6)
-3750	add shadow ability to armor
-11250		improved
-18750		greater
-3750	add silent moves ability to armor
-11250		improved
-18750		greater
-18000	add an elemental resistance ability to armor (there are 5)
-24000		improved
-24000		greater
+7500	add stealth ability to armor
+22500		improved
+37500		greater
 22500	add deep ability to armor [stormwrack]
 2000	add called ability to armor [mic]
 6000	add linked ability to armor [mic]
@@ -19,7 +13,7 @@
 5000	add quickness ability to armor [mic]
 6000	add speed ability to armor [mic]
 3000	greater crystal of screening armor crystal [mic]
-4180	tower shield with animated ability (material?)
+5170	large mithril shield with animated ability (+2) - 2585gp per AC
 5000		+1 (+3)
 7000		+2 (+4)
 9000		+3 (+5)
@@ -34,9 +28,12 @@
 10000		+3
 14000		+4
 18000		+5
-4000	amulet of health +2 (consider amulet of natural armor as alternative)
-12000		+4
-20000		+6
+2000	amulet of natural armor +1 (consider psycoactive skin of the defender [mic, 32kgp] as alternative)
+6000		+2
+10000		+3
+14000		+4
+18000		+5
+10000	psychoactive skin of power damping [mic]
 16000	belt of giant strength +4
 20000		+6
 16000	winged boots
@@ -45,6 +42,7 @@
 12000	goggles of night
 2000	handy haversack
 5000	+1 AC ioun stone
+8000	+2 stat ioun stones (wis, con, cha, int)
 10000	alertness ioun stone
 20000	regeneration ioun stone
 30000	+1 attack/save/skill/ability ioun stone
@@ -63,6 +61,10 @@
 60000	minor ring of universal energy resistance [mic]
 60000		major
 60000		greater
+2000	dimension stride boots [mic]
+1400	anklet of translocation [mic]
+6000	boots of big stepping [mic]
+5000	boots of swift passage [mic]
 
 weapon abilities to consider:
 ghost touch (+1)
@@ -72,11 +74,6 @@ shadowstrike (5000gp) [mic]
 sizing (5000gp) [mic]
 vampiric (+2) [mic]
 
-armor abilities to consider:
-radiant (+4) [mic]
-
-special materials to consider:
-darksteel/dlarun/fever iron/hizagkuur (weapon) [magic of faerun]
-blue ice (weapon) [frostburn]
-green starmetal (weapon) [complete arcane]
-astral driftmetal (shield) [arms and equipment guide]
+weapon materials to consider:
+hizagkuur (1500gp) [magic of faerun]
+green starmetal (5000gp) [complete arcane]

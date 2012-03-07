@@ -206,15 +206,16 @@ feats:
 
 feats wanted:
 	cleave[ftr]
-		great cleave[ftr](BAB 4)
-	greater weapon focus[ftr](ftr lvl 8)
+		great cleave[ftr]
+	greater weapon focus[ftr]
 		greater weapon specialization[ftr](weapon focus, ftr lvl 12)
 			weapon supremacy(ftr lvl 18){PHB2}
+	close-quarters fighting{CW}
 	overpowering attack{PHB2 ACF}(ftr lvl 16 feat slot only)
 
 feats maybe wanted:
-	allied defense(combat expertise[ftr](int 13)){FR:SS}
-	improved combat expertise[ftr](int 13, combat expertise, BAB 6){CW} - only take this with allied defense
+	allied defense[ftr](combat expertise){FR:SS}
+	improved combat expertise[ftr](combat expertise){CW} - only take this with allied defense
 	overwhelming assault(BAB 15){PHB2}
 	slashing flurry(BAB 14, melee weapon mastery){PHB2}
 	mage slayer(spellcraft 2){CA}
