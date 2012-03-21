@@ -10,9 +10,10 @@ levels:
 	9	fighter (8)	102hp	(+3+5)
 
 status:
-	9 damage
-	crystal has 10 damage
-	need treasure from pyro necro fight
+	38 damage
+	crystal has 35 damage
+	fatigued (-2 str, -2 dex, can't run)
+	bull's strength (+4 str)
 
 vitals:
 	attack (greatsword): +8 BAB +2 str +1 magic +1 WF +2 MWM = +14/+9
@@ -79,6 +80,7 @@ experience:
 	2325	(+900)	avoral
 	4125	(+1800)	young adult dragon
 	6740	(+2615)	pyromaniac necromancer fight
+	10190	(+3450)	pyromaniac necromancer fight part 2
 
 gold:
 	4514			remaining from character gen
@@ -128,6 +130,7 @@ new equipment:
 	bag of holding (type 1)
 	honest ackbar's lamp
 	favor from aspect of juiblex in lieu of quest book
+		used to avoid death, surprises are forthcoming
 	base of operations in inn
 
 chris/conrad/elizabeth loot:
