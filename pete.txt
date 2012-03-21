@@ -10,11 +10,9 @@ levels:
 	9	fighter (8)	102hp	(+3+5)
 
 status:
-	69 damage
-	crystal has 35 damage
-	bull's strength
-	shaken (-1 attack)
-	recitation (+2 attacks/saves/skills, -2 to enemies)
+	9 damage
+	crystal has 10 damage
+	need treasure from pyro necro fight
 
 vitals:
 	attack (greatsword): +8 BAB +2 str +1 magic +1 WF +2 MWM = +14/+9
@@ -80,6 +78,7 @@ experience:
 	1425	(+1350)	fled from kraken
 	2325	(+900)	avoral
 	4125	(+1800)	young adult dragon
+	6740	(+2615)	pyromaniac necromancer fight
 
 gold:
 	4514			remaining from character gen
@@ -105,6 +104,7 @@ gold:
 	3515	(+2500)		pirate fighters/rogue/sorcerer loot
 	5265	(+1750)		pirate treasure hold
 	5590	(+325)		pirate boss battle treasure
+	6590	(+1000)		sir fuch's quest reward
 
 new equipment:
 	+1 frost greatsword
@@ -149,9 +149,6 @@ chris/conrad/elizabeth/emily loot:
 	staff of charming
 	ring of you haven't identified it yet
 	unidentified magic broom
-
-emily treasure:
-	325
 
 stats:
 	strength	15
