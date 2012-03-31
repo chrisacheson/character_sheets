@@ -1,0 +1,36 @@
+goliath
+	+2 str, +2 con
+	6 speed
+	speaks common and giant
+	+2 athletics, +2 nature
+	+1 will
+	double-roll on jump or climb, take highest
+	dr5 for 1 round as encounter minor action
+rageblood barbarian
+	33 hp (15 + con stat + level * 6)
+	12 healing surges per day (8 + con bonus)
+	barbarian agility (+1 AC and reflex when not in heavy armor)
+	rageblood vigor (swift charge (charge on kill) and gain con bonus in temp HP on kill)
+	rampage (extra attack on crit)
+	weapon expertise
+	athletics, endurance, perception
+	at will: devastating strike, recuperating strike
+	encounter: avalanche strike
+	daily: bloodhunt rage
+stats
+	str	18	+4
+	con	18	+4
+	dex	14	+2
+	int	12	+1
+	wis	13	+1
+	cha	15	+2
+equipment
+	greatsword
+	hide armor (+3 AC, -1 ACP)
+defense
+	14 AC
+	16 fort
+	13 reflex
+	13 will
+status
+	13 damage
