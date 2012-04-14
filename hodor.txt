@@ -17,20 +17,33 @@ rageblood barbarian
 	at will: devastating strike, recuperating strike
 	encounter: avalanche strike
 	daily: bloodhunt rage
-stats
+stats:
 	str	18	+4
 	con	18	+4
 	dex	14	+2
 	int	12	+1
 	wis	13	+1
 	cha	15	+2
-equipment
+equipment:
 	greatsword
 	hide armor (+3 AC, -1 ACP)
-defense
+defense:
 	14 AC
 	16 fort
 	13 reflex
 	13 will
-status
-	13 damage
+status:
+	25 damage
+	9 temp hp
+	used 4 healing surge
+	need to take level, get treasure item, loot
+experience:
+	0		character gen
+	500	(+500)	quarry enterance kobold fight
+	1125	(+625)	quarry tunnel kobold fight
+gold:
+	0		character gen
+	7	(+7)	quarry tunnel kobold fight
+chris/liz/emily loot:
+	bag of holding party loot
+	8 javelins
