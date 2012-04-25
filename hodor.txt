@@ -7,15 +7,12 @@ goliath
 	double-roll on jump or climb, take highest
 	dr5 for 1 round as encounter minor action
 rageblood barbarian
-	33 hp (15 + con stat + level * 6)
-		39 at level 2
-	12 healing surges per day (8 + con bonus)
-		each heals 0.25 * maxhp, 9 at level 2
+	+2 fortitude
 	barbarian agility (+1 AC and reflex when not in heavy armor)
 	rageblood vigor (swift charge (charge on kill) and gain con bonus in temp HP on kill)
 	rampage (extra attack on crit)
 	weapon expertise (+1 attack)
-	athletics, endurance, perception
+	athletics(str), endurance(con), perception(wis)
 	at will: devastating strike, recuperating strike
 	encounter: avalanche strike
 	daily: bloodhunt rage
@@ -26,33 +23,34 @@ stats:
 	int	12	+1
 	wis	13	+1
 	cha	15	+2
-		all +1 at level 2
 equipment:
 	greatsword (+3 attack, 1d10 damage +1 for 2H)
-	hide armor (+3 AC, -1 ACP)
-defense:
-	14 AC
-	16 fort
-	13 reflex
-	13 will
-		all +2 at level 2
+	vicious greatsword (acts as +1, does +1d12 on crit)
+	hide armor (light, +3 AC, -1 ACP)
+	potion of healing
+vitals:
+	attack: +1 level +4 str +3 prof +1 magic +1 expert = +10
+	AC: 10 +1 level +2 dex +3 armor +1 BA = 17
+	17 fort
+	14 reflex
+	14 will
 status:
-	0 damage
+	0 damage (max hp: 15 +18 con +6*(2-1) level = 39)
 	0 temp hp
-	used 7 healing surges
+	- initiative (bonus: +1 level +2 dex = +3)
+	used 7 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*39 maxhp = 9.75)
 	need to take level
 		+1 feat
 		+1 utility power
 	used daily power
-	party needs treasure
-		mikki gets level 4
-		everyone else gets level 2
+	remind liz to add goblin tower to quest log
 experience:
 	0		character gen
 	500	(+500)	quarry enterance kobold fight
 	1125	(+625)	quarry tunnel kobold fight
 	125	(-1000)	level 2
 	325	(+200)	quarry dragon fight
+	440	(+115)	goblin random encounter
 gold:
 	0		character gen
 	27	(+27)	quarry tunnel kobold fight
@@ -62,4 +60,4 @@ chris/liz/emily loot:
 	8 javelins
 	amethyst
 chris/liz/emily/mikki loot:
-	amethyst
+	2 amethysts
