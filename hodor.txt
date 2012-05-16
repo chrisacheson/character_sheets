@@ -13,7 +13,7 @@ rageblood barbarian
 	rampage (extra attack on crit)
 	weapon expertise (+1 attack)
 	athletics(str), endurance(con), perception(wis)
-	at will: devastating strike, recuperating strike
+	at will: pressing strike, recuperating strike
 	encounter: avalanche strike
 	daily: bloodhunt rage
 background:
@@ -35,11 +35,24 @@ stats:
 	wis	13	+1
 	cha	15	+2
 feats:
-	1	weapon expertise (+1 attack)
-	2	goliath greatweapon prowess (+2 damage)
+	lvl 1	bludgeon expertise (+1 attack, push attacks get +1 square)
+	lvl 2	goliath greatweapon prowess (+2 damage)
 powers:
-	blade sweep
-		encounter standard action, 2*weapon+str, adjacent enemies take damage=con
+    at-will
+	lvl 1	howl of fury
+		1*weapon+str, then all other enemies in blast take damage=con (con+3 when raging)
+	lvl 1	pressing strike
+		shift 2 through enemies, then 1*weapon+str and push 1, +1d6 when raging
+    encounter
+    	theme	stone panoply (friendly fire)
+	lvl 1	avalanche strike
+	lvl 3	brutal slam
+		encounter standard action, str vs fort, 2*weapon+str
+		push target 2 squares and knock prone, then enemy adjactent to target takes 1d8+str
+    daily
+	lvl 1	bloodhunt rage
+    utility
+	lvl 2	earthforger's might
 equipment:
 	greatsword (+3 attack, 1d10 damage +1 for 2H)
 	vicious greatsword (acts as +1, does +1d12 on crit)
@@ -53,15 +66,18 @@ vitals:
 	14 reflex
 	14 will
 status:
-	3 damage (max hp: 15 +18 con +6*(2-1) level = 45)
-	0 temp hp
-	12 initiative (bonus: +1 level +2 dex = +3)
-	used 4 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*45 maxhp = 11.25)
-	used earthforger's might (+2 damage)
-	used bloodhunt rage
-	used 2 action point
+	20 damage (max hp: 15 +18 con +6*(3-1) level = 51)
+	1 temp hp
+	15 initiative (bonus: +1 level +2 dex = +3)
+	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*51 maxhp = 12.75)
+	used 0/1 action point
+	used dr
+	used stone panoply
 	need to finish taking levels
 	need lots of treasure
+		level 4 magic item
+		level 3 magic item
+		level 2 magic item
 experience:
 	0		character gen
 	500	(+500)	quarry enterance kobold fight
@@ -75,6 +91,7 @@ experience:
 	1525	(+750)	goblin harpoonists
 	275	(-1250)	level 3
 	625	(+350)	blaze wyrm
+	740	(+115)	storm shard and maws
 gold:
 	0		character gen
 	27	(+27)	quarry tunnel kobold fight
