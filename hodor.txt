@@ -5,7 +5,6 @@ goliath
 	+2 athletics, +2 nature
 	+1 will
 	double-roll on jump or climb, take highest
-	dr5 for 1 round as encounter minor action
 rageblood barbarian
 	+2 fortitude
 	barbarian agility (+1 AC and reflex when not in heavy armor)
@@ -13,20 +12,12 @@ rageblood barbarian
 	rampage (extra attack on crit)
 	weapon expertise (+1 attack)
 	athletics(str), endurance(con), perception(wis)
-	at will: pressing strike, recuperating strike
-	encounter: avalanche strike
-	daily: bloodhunt rage
 background:
 	+2 bonus to athletics
 earthforger theme:
 	count as elemental
 	speak primordial
 	second wind gives +1 to all defenses until EONT
-	stone panoply
-		encounter standard action, close burst 1, ability vs AC
-		weapon+ability damage, DR 1+level*0.5 and slowed until EONT
-	earthforger's might
-		daily minor action, +2 damage until end of encounter
 stats:
 	str	18	+4
 	con	18	+4
@@ -39,45 +30,65 @@ feats:
 	lvl 2	goliath greatweapon prowess (+2 damage)
 powers:
     at-will
-	lvl 1	howl of fury
+	lvl 1	howl_of_fury
 		1*weapon+str, then all other enemies in blast take damage=con (con+3 when raging)
-	lvl 1	pressing strike
+	lvl 1	pressing_strike
 		shift 2 through enemies, then 1*weapon+str and push 1, +1d6 when raging
     encounter
-    	theme	stone panoply (friendly fire)
-	lvl 1	avalanche strike
-	lvl 3	brutal slam
+    	race	stones_endurance (minor action, dr5 until EONT)
+    	theme	stone_panoply (friendly fire)
+			encounter standard action, close burst 1, ability vs AC
+			weapon+ability damage, DR 1+level*0.5 and slowed until EONT
+	lvl 1	avalanche_strike (3*weapon+str+con, enemies get +4 to attack me until SONT)
+	lvl 3	brutal_slam
 		encounter standard action, str vs fort, 2*weapon+str
 		push target 2 squares and knock prone, then enemy adjactent to target takes 1d8+str
     daily
-	lvl 1	bloodhunt rage
+	lvl 1	bloodhunt_rage
     utility
-	lvl 2	earthforger's might
+	lvl 2	earthforgers_might (daily minor, +2 damage until EOE or leaving ground) equipment:
 equipment:
-	greatsword (+3 attack, 1d10 damage +1 for 2H)
-	vicious greatsword (acts as +1, does +1d12 on crit)
+	maul (+2 attack, 2d6 damage +1 for 2H)
+	resounding maul +1 (+1d6 thndr crit, daily free act on hit: target is dazed until your EONT)
 	hide armor (light, +3 AC, -1 ACP)
 	potion of healing
 vitals:
-	attack: +1 level +4 str +3 prof +1 magic +1 feat = +10
+	attack: +1 level +4 str +2 prof +1 magic +1 feat = +9
 	damage:	+4 str +1 THW +1 magic +2 feat = +8
 	AC: 10 +1 level +2 dex +3 armor +1 BA = 17
 	17 fort
 	14 reflex
 	14 will
 status:
-	20 damage (max hp: 15 +18 con +6*(3-1) level = 51)
-	1 temp hp
-	15 initiative (bonus: +1 level +2 dex = +3)
-	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*51 maxhp = 12.75)
-	used 0/1 action point
-	used dr
-	used stone panoply
-	need to finish taking levels
+	29 damage (max hp: 15 +18 con +6*(3-1) level = 45)
+	5 temp hp from hymn of resurgence
+	4 initiative (bonus: +1 level +2 dex = +3)
+	used 2 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*51 maxhp = 12.75)
+	used 2/2 action point, 2 encounters today
+    powers used:
+	stones_endurance
+	earthforgers_might, ended
+	brutal_slam
+	bloodhunt_rage
+	avalanche_strike
+	hammer_daily
+
 	need lots of treasure
 		level 4 magic item
+			bloodcut hide armor +1 (use surge as minor act when bloody, dr10 until EONT)
+			hide armor of durability +1 (+1 hp per surge)
+			genasi soul hide armor +1 (genasi racial encounter power)
+			hide battle harness +1 (+1 initiative and quick draw)
+			hide armor of adaptable resistance +1
+				dr5 against one element, daily imm to switch for encounter
 		level 3 magic item
+			delver's hide armor +1 (daily free action, +2 to saving throw after roll)
+			sylvan hide armor +1 (+1 athletics and stealth)
+			addergrease hide armor +1
+				daily imm reaction, when attacker misses shift 1 and they take 5
+				ongoing poison damage (save ends)
 		level 2 magic item
+			cloak of resistance +1 (+1 fort/reflex/will, dr5 until SONT as daily minor)
 experience:
 	0		character gen
 	500	(+500)	quarry enterance kobold fight
@@ -92,6 +103,7 @@ experience:
 	275	(-1250)	level 3
 	625	(+350)	blaze wyrm
 	740	(+115)	storm shard and maws
+	940	(+200)	kobold quarry maws
 gold:
 	0		character gen
 	27	(+27)	quarry tunnel kobold fight
@@ -105,3 +117,5 @@ chris/liz/emily loot:
 	amethyst
 chris/liz/emily/mikki loot:
 	2 amethysts
+chris/liz/emily/bill loot:
+	favor from temple of hippy elves north of gravel pit
