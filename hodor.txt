@@ -25,6 +25,7 @@ stats:
 	int	12	+1
 	wis	13	+1
 	cha	15	+2
+	level bonus +2
 feats:
 	lvl 1	bludgeon expertise (+1 attack, push attacks get +1 square)
 	lvl 2	goliath greatweapon prowess (+2 damage)
@@ -51,31 +52,25 @@ equipment:
 	maul (+2 attack, 2d6 damage +1 for 2H)
 	resounding maul +1 (+1d6 thndr crit, daily free act on hit: target is dazed until your EONT)
 	hide armor (light, +3 AC, -1 ACP)
-	potion of healing
 vitals:
-	attack: +1 level +4 str +2 prof +1 magic +1 feat = +9
+	attack: +2 level +4 str +2 prof +1 magic +1 feat = +10
 	damage:	+4 str +1 THW +1 magic +2 feat = +8
-	AC: 10 +1 level +2 dex +3 armor +1 BA = 17
-	17 fort
-	14 reflex
-	14 will
+	AC: 10 +2 level +2 dex +3 armor +1 BA = 18
+	18 fort
+	15 reflex
+	15 will
 status:
-	29 damage (max hp: 15 +18 con +6*(3-1) level = 45)
-	5 temp hp from hymn of resurgence
-	4 initiative (bonus: +1 level +2 dex = +3)
-	used 2 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*51 maxhp = 12.75)
-	used 2/2 action point, 2 encounters today
+	0 damage (max hp: 15 +18 con +6*(4-1) level = 51)
+	- initiative (bonus: +2 level +2 dex = +4)
+	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*51 maxhp = 14.25)
+	used 0/1 action point, 0/1 item daily, 0 encounters today
     powers used:
-	stones_endurance
-	earthforgers_might, ended
-	brutal_slam
-	bloodhunt_rage
-	avalanche_strike
-	hammer_daily
 
 	need lots of treasure
+		checked armor for level 1-5 in compendium
+		level 5 magic item
 		level 4 magic item
-			bloodcut hide armor +1 (use surge as minor act when bloody, dr10 until EONT)
+		*	bloodcut hide armor +1 (use surge as minor act when bloody, dr10 until EONT)
 			hide armor of durability +1 (+1 hp per surge)
 			genasi soul hide armor +1 (genasi racial encounter power)
 			hide battle harness +1 (+1 initiative and quick draw)
@@ -87,23 +82,29 @@ status:
 			addergrease hide armor +1
 				daily imm reaction, when attacker misses shift 1 and they take 5
 				ongoing poison damage (save ends)
+		*	belt of vigor (not actually level 3, +1 hp on surge)
 		level 2 magic item
-			cloak of resistance +1 (+1 fort/reflex/will, dr5 until SONT as daily minor)
+		*	cloak of resistance +1 (+1 fort/reflex/will, dr5 until SONT as daily minor)
 experience:
-	0		character gen
-	500	(+500)	quarry enterance kobold fight
-	1125	(+625)	quarry tunnel kobold fight
-	125	(-1000)	level 2
-	325	(+200)	quarry dragon fight
-	440	(+115)	goblin random encounter
-	595	(+155)	goblin tower enterance
-	675	(+80)	goblin tower stairs
-	775	(+100)	fodder
-	1525	(+750)	goblin harpoonists
-	275	(-1250)	level 3
-	625	(+350)	blaze wyrm
-	740	(+115)	storm shard and maws
-	940	(+200)	kobold quarry maws
+	total	current	diff	description
+================================================================
+	0	0		character gen
+	500	500	(+500)	quarry enterance kobold fight
+	1125	1125	(+625)	quarry tunnel kobold fight
+	1125	125	(-1000)	level 2
+	1325	325	(+200)	quarry dragon fight
+	1440	440	(+115)	goblin random encounter
+	1595	595	(+155)	goblin tower enterance
+	1675	675	(+80)	goblin tower stairs
+	1775	775	(+100)	fodder
+	2525	1525	(+750)	goblin harpoonists
+	2525	275	(-1250)	level 3
+	2875	625	(+350)	blaze wyrm
+	2990	740	(+115)	storm shard and maws
+	3190	940	(+200)	kobold quarry maws
+	4190	1940	(+1000)	grey dragon guardian
+	4200	450	(-1500)	level 4
+
 gold:
 	0		character gen
 	27	(+27)	quarry tunnel kobold fight
@@ -111,11 +112,9 @@ gold:
 	132	(+100)	kobold quarry quest reward
 	165	(+33)	goblin tower enterance loot
 	200	(+35)	goblin tower stairs loot
-chris/liz/emily loot:
+loot:
 	bag of holding party loot
 	8 javelins
 	amethyst
-chris/liz/emily/mikki loot:
 	2 amethysts
-chris/liz/emily/bill loot:
-	favor from temple of hippy elves north of gravel pit
+	kobold quarry quest orb
