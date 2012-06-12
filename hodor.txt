@@ -10,7 +10,6 @@ rageblood barbarian
 	barbarian agility (+1 AC and reflex when not in heavy armor)
 	rageblood vigor (swift charge (charge on kill) and gain con bonus in temp HP on kill)
 	rampage (extra attack on crit)
-	weapon expertise (+1 attack)
 	athletics(str), endurance(con), perception(wis)
 background:
 	+2 bonus to athletics
@@ -19,23 +18,24 @@ earthforger theme:
 	speak primordial
 	second wind gives +1 to all defenses until EONT
 stats:
-	str	18	+4
-	con	18	+4
-	dex	14	+2
-	int	12	+1
-	wis	13	+1
-	cha	15	+2
+	str	18	19 at level 4
+	con	18	19 at level 4
+	dex	14
+	int	12
+	wis	13
+	cha	15
 	level bonus +2
 feats:
 	lvl 1	bludgeon expertise (+1 attack, push attacks get +1 square)
 	lvl 2	goliath greatweapon prowess (+2 damage)
+	lvl 3	weapon focus (+1 damage)
 powers:
-    at-will
-	lvl 1	howl_of_fury
-		1*weapon+str, then all other enemies in blast take damage=con (con+3 when raging)
+	at-will
+	lvl 1	howling_strike
+		1*weapon+1d6+str, can use on charge, 2 extra charge movement when raging
 	lvl 1	pressing_strike
 		shift 2 through enemies, then 1*weapon+str and push 1, +1d6 when raging
-    encounter
+	encounter
     	race	stones_endurance (minor action, dr5 until EONT)
     	theme	stone_panoply (friendly fire)
 			encounter standard action, close burst 1, ability vs AC
@@ -44,30 +44,33 @@ powers:
 	lvl 3	brutal_slam
 		encounter standard action, str vs fort, 2*weapon+str
 		push target 2 squares and knock prone, then enemy adjactent to target takes 1d8+str
-    daily
+	daily
 	lvl 1	bloodhunt_rage
-    utility
+	utility
 	lvl 2	earthforgers_might (daily minor, +2 damage until EOE or leaving ground) equipment:
 equipment:
 	maul (+2 attack, 2d6 damage +1 for 2H)
 	resounding maul +1 (+1d6 thndr crit, daily free act on hit: target is dazed until your EONT)
+	mordenkrad?
 	hide armor (light, +3 AC, -1 ACP)
 vitals:
 	attack: +2 level +4 str +2 prof +1 magic +1 feat = +10
-	damage:	+4 str +1 THW +1 magic +2 feat = +8
-	AC: 10 +2 level +2 dex +3 armor +1 BA = 18
-	18 fort
-	15 reflex
-	15 will
+	damage:	+4 str +1 THW +1 magic +3 feat = +9
+	AC: 10 +2 level +2 dex +3 armor +1 class = 18
+	Fort: 10 +2 level +4 con +2 class +1 cloak = 19
+	Reflex: 10 +2 level +2 dex +1 class +1 cloak = 16
+	Will: 10 +2 level +2 cha +1 race +1 cloak = 16
 status:
-	0 damage (max hp: 15 +18 con +6*(4-1) level = 51)
+	0 damage (max hp: 15 +19 con +6*(4-1) level = 52)
 	- initiative (bonus: +2 level +2 dex = +4)
-	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*51 maxhp = 14.25)
+	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*52 maxhp = 14.5 +1 belt)
 	used 0/1 action point, 0/1 item daily, 0 encounters today
-    powers used:
+	powers used:
 
 	need lots of treasure
-		checked armor for level 1-5 in compendium
+		checked for level 1-5 in compendium:
+			armor
+			arms
 		level 5 magic item
 		level 4 magic item
 		*	bloodcut hide armor +1 (use surge as minor act when bloody, dr10 until EONT)
@@ -87,7 +90,7 @@ status:
 		*	cloak of resistance +1 (+1 fort/reflex/will, dr5 until SONT as daily minor)
 experience:
 	total	current	diff	description
-================================================================
+	========================================================
 	0	0		character gen
 	500	500	(+500)	quarry enterance kobold fight
 	1125	1125	(+625)	quarry tunnel kobold fight
@@ -106,6 +109,8 @@ experience:
 	4200	450	(-1500)	level 4
 
 gold:
+	current	diff	description
+	================================================
 	0		character gen
 	27	(+27)	quarry tunnel kobold fight
 	32	(+5)	quarry dragon fight
@@ -115,6 +120,5 @@ gold:
 loot:
 	bag of holding party loot
 	8 javelins
-	amethyst
-	2 amethysts
+	3 amethysts
 	kobold quarry quest orb
