@@ -45,13 +45,14 @@ powers:
 		encounter standard action, str vs fort, 2*weapon+str
 		push target 2 squares and knock prone, then enemy adjactent to target takes 1d8+str
 	daily
-	lvl 1	bloodhunt_rage
+	lvl 1	thunder hooves rage
+		3*weapon+str, half on miss, until EOR can move through one or two enemies per round
+		moving through enemy gives extra 1*weapon damage on next attack until EOT
 	utility
 	lvl 2	earthforgers_might (daily minor, +2 damage until EOE or leaving ground) equipment:
 equipment:
 	maul (+2 attack, 2d6 damage +1 for 2H)
 	resounding maul +1 (+1d6 thndr crit, daily free act on hit: target is dazed until your EONT)
-	mordenkrad?
 	hide armor (light, +3 AC, -1 ACP)
 vitals:
 	attack: +2 level +4 str +2 prof +1 magic +1 feat = +10
