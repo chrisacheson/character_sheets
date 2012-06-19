@@ -5,30 +5,36 @@ goliath
 	+2 athletics, +2 nature
 	+1 will
 	double-roll on jump or climb, take highest
-rageblood barbarian
+
+barbarian
 	+2 fortitude
 	barbarian agility (+1 AC and reflex when not in heavy armor)
 	rageblood vigor (swift charge (charge on kill) and gain con bonus in temp HP on kill)
 	rampage (extra attack on crit)
 	athletics(str), endurance(con), perception(wis)
+
 background:
 	+2 bonus to athletics
+
 earthforger theme:
 	count as elemental
 	speak primordial
 	second wind gives +1 to all defenses until EONT
+
 stats:
 	str	18	19 at level 4
 	con	18	19 at level 4
-	dex	14
+	dex	15
 	int	12
 	wis	13
-	cha	15
+	cha	14
 	level bonus +2
+
 feats:
 	lvl 1	bludgeon expertise (+1 attack, push attacks get +1 square)
 	lvl 2	goliath greatweapon prowess (+2 damage)
-	lvl 3	improved rageblood vigor (5 more (10 total) temp hp on kill)
+	lvl 3	improved rageblood vigor (5 more (9 total) temp hp on kill)
+
 powers:
 	at-will
 	lvl 1	howling_strike
@@ -50,21 +56,33 @@ powers:
 		moving through enemy gives extra 1*weapon damage on next attack until EOT
 	utility
 	lvl 2	earthforgers_might (daily minor, +2 damage until EOE or leaving ground) equipment:
+
 equipment:
 	maul (+2 attack, 2d6 damage)
 	resounding maul +1 (+1d6 thndr crit, daily free act on hit: target is dazed until your EONT)
 	hide armor (light, +3 AC, -1 ACP)
+	badge of the berserker +1 (+1 fort/reflex/will, no AoO on charge)
+	belt of feral might (add strength to THP from rageblood vigor)
+	bestial hide armor +1 (daily free action, extra basic attack @ +2 after hit on charge)
+	vanguard maul +1 (+1d8 damage on successful charge, +1d8 damage on crit)
+		daily minor action, use when making charge, if successful allies
+		within 10 squares get +1 attack and +your cha damage until SOYNT
+	standard adventurer's kit
+	climber's kit
+	everburning torch
+
 vitals:
 	attack: +2 level +4 str +2 prof +1 magic +1 feat = +10
 	damage:	+4 str +1 magic +2 feat = +7
-	AC: 10 +2 level +2 dex +3 armor +1 class = 18
-	Fort: 10 +2 level +4 con +2 class +1 cloak = 19
-	Reflex: 10 +2 level +2 dex +1 class +1 cloak = 16
-	Will: 10 +2 level +2 cha +1 race +1 cloak = 16
+	AC: 10 +2 level +2 dex +3 armor +1 class +1 magic = 19
+	Fort: 10 +2 level +4 con +2 class +1 item = 19
+	Reflex: 10 +2 level +2 dex +1 class +1 item = 16
+	Will: 10 +2 level +2 cha +1 race +1 item = 16
+
 status:
 	12 damage (max hp: 15 +19 con +6*(4-1) level = 52)
 	- initiative (bonus: +2 level +2 dex = +4)
-	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*52 maxhp = 14.5 +1 belt)
+	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*52 maxhp = 14.5)
 	used 1/1 action point, 0/1 item daily, 0 encounters today
 	hexed vs baldric, save ends
 	powers used:
@@ -73,27 +91,7 @@ status:
 		brutal slam
 
 	need warlock quest reward
-	need lots of treasure
-		checked for level 1-5 in compendium:
-			armor
-			arms
-		level 5 magic item
-		level 4 magic item
-		*	bloodcut hide armor +1 (use surge as minor act when bloody, dr10 until EONT)
-			hide armor of durability +1 (+1 hp per surge)
-			genasi soul hide armor +1 (genasi racial encounter power)
-			hide battle harness +1 (+1 initiative and quick draw)
-			hide armor of adaptable resistance +1
-				dr5 against one element, daily imm to switch for encounter
-		level 3 magic item
-			delver's hide armor +1 (daily free action, +2 to saving throw after roll)
-			sylvan hide armor +1 (+1 athletics and stealth)
-			addergrease hide armor +1
-				daily imm reaction, when attacker misses shift 1 and they take 5
-				ongoing poison damage (save ends)
-		*	belt of vigor (not actually level 3, +1 hp on surge)
-		level 2 magic item
-		*	cloak of resistance +1 (+1 fort/reflex/will, dr5 until SONT as daily minor)
+
 experience:
 	total	current	diff	description
 	========================================================
@@ -114,20 +112,35 @@ experience:
 	4190	1940	(+1000)	grey dragon guardian
 	4200	450	(-1500)	level 4
 	4430	680	(+230)	flaming abominable horror boss fight
-	4700	950	(+270)	flaming abominable horror boss fight
+	4700	950	(+270)	baldric fight
 
 gold:
 	current	diff	description
 	================================================
-	0		character gen
-	27	(+27)	quarry tunnel kobold fight
-	32	(+5)	quarry dragon fight
-	132	(+100)	kobold quarry quest reward
-	165	(+33)	goblin tower enterance loot
-	200	(+35)	goblin tower stairs loot
-	260	(+60)	barkley's lockbox
-loot:
+	100		character gen
+	40	(-60)	starting weapon and armor
+	67	(+27)	quarry tunnel kobold fight
+	72	(+5)	quarry dragon fight
+	172	(+100)	kobold quarry quest reward
+	205	(+33)	goblin tower enterance loot
+	240	(+35)	goblin tower stairs loot
+	300	(+60)	barkley's lockbox
+	3340	(+3040)	cash in level 2, 3, 4, and 5 loot coupons
+	2140	(-1200)	buy badge of the berserker, belt of feral might
+	780	(-1360)	buy bestial hide armor, vanguard maul
+	713	(-67)	buy standard adventurer's kit, climber's kit, everburning torch
+
+party loot:
 	bag of holding party loot
-	8 javelins
-	3 amethysts
+	8 javelins (sell for 1gp each)
+	3 amethysts (sell for 100gp each)
 	cursed arrow quest item
+
+gear wishlist:
+	level 4, 840gp
+		gauntlets of blood (+2 damage vs bloodied targets)
+	level 6, 1800gp
+		iron armbands of power (+2 damage item bonus)
+		horned helm (+1d6 damage on charge)
+	level 7, 2600gp
+		rushing cleats (+2 bull rush item bonus, +1 square to push/slide effects)
