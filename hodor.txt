@@ -10,6 +10,7 @@ barbarian
 	+2 fortitude
 	barbarian agility (+1 AC and reflex when not in heavy armor)
 	rageblood vigor (gain con bonus in temp HP on kill)
+	rage strike (spend rage keyword power while already raging to do 4*weapon+str)
 	rampage (extra attack on crit)
 
 background:
@@ -19,6 +20,7 @@ earthforger theme:
 	count as elemental
 	speak primordial
 	second wind gives +1 to all defenses until EONT
+	+2 power bonus to endurance
 
 stats:
 	str	18	19 at level 4
@@ -46,6 +48,7 @@ powers:
     	theme	stone_panoply (friendly fire)
 			encounter standard action, close burst 1, ability vs AC
 			weapon+ability damage, DR 1+level*0.5 and slowed until EONT
+			burst creates difficult terrain for enemies until EOE, earthwalk negates
 	lvl 1	avalanche_strike (3*weapon+str+con, enemies get +4 to attack me until SONT)
 	lvl 3	brutal_slam
 		encounter standard action, str vs fort, 2*weapon+str
@@ -54,6 +57,9 @@ powers:
 	lvl 1	thunder_hooves_rage
 		3*weapon+str, half on miss, until EOR can move through one or two enemies per round
 		moving through enemy gives extra 1*weapon damage on next attack until EOT
+	lvl 5	rage_of_the_crimson_hurricane
+		close burst 1, 1*weapon+str, each target takes ongoing 5 (save ends), rage: on first
+		hit w/ primal each turn, adjacent enemies take str damage after attack
 	utility
 	lvl 2	earthforgers_might (daily minor, +2 damage until EOE or leaving ground) equipment:
 
@@ -83,18 +89,16 @@ vitals:
 
 	perception: +5 trained +2 level +1 wis = +8 (18 passive)
 	athletics: +5 trained +2 level +4 str +2 race +2 background -1 ACP = +14
-	endurance: +5 trained +2 level +4 con -1 ACP = +11
+	endurance: +5 trained +2 level +4 con +2 theme -1 ACP = +13
 	nature: +2 level +2 race +1 wis = +5
 	other: +2 level +stat
 
 status:
-	10 damage (max hp: 15 +19 con +6*(4-1) level = 52)
+	10 damage (max hp: 15 +19 con +6*(5-1) level = 58)
 	- initiative (bonus: +2 level +2 dex = +4)
-	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*52 maxhp = 14.5)
-	used 1/1 action_point, 0/1 item daily, 2 encounters today
+	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*58 maxhp = 16.0)
+	used 1/2 action_point, 0/2 item daily, 2 encounters today
 	powers used:
-
-	inform mikki of 14 gold from chesnin quest and 141 gold from party loot
 
 experience:
 	total	current	diff	description
@@ -102,25 +106,26 @@ experience:
 	0	0		character gen
 	500	500	(+500)	quarry enterance kobold fight
 	1125	1125	(+625)	quarry tunnel kobold fight
-	1125	125	(-1000)	level 2
+		125	(-1000)	level 2
 	1325	325	(+200)	quarry dragon fight
 	1440	440	(+115)	goblin random encounter
 	1595	595	(+155)	goblin tower enterance
 	1675	675	(+80)	goblin tower stairs
 	1775	775	(+100)	fodder
 	2525	1525	(+750)	goblin harpoonists
-	2525	275	(-1250)	level 3
+		275	(-1250)	level 3
 	2875	625	(+350)	blaze wyrm
 	2990	740	(+115)	storm shard and maws
 	3190	940	(+200)	kobold quarry maws
 	4190	1940	(+1000)	grey dragon guardian
-	4190	440	(-1500)	level 4
+		440	(-1500)	level 4
 	4420	670	(+230)	flaming abominable horror skill challenge and boss fight
 	4690	940	(+270)	baldric challenge and fight
 	5012	1262	(+322)	missing exp adjustment
 	5047	1297	(+35)	chesnin quest reward
 	5222	1472	(+175)	flesh-crazed zombies
 	5500	1750	(+278)	fimburl devil fight
+		0	(-1750)	level 5
 
 gold:
 	current	diff	description
