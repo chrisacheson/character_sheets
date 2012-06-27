@@ -69,8 +69,8 @@ equipment:
 	hide armor (light, +3 AC, -1 ACP)
 	badge of the berserker +1 (+1 fort/reflex/will, no AoO on charge)
 	belt of feral might (add strength to THP from rageblood vigor)
-	bestial hide armor +1 (daily free action, extra basic attack @ +2 after hit on charge)
-	vanguard maul +1 (+1d8 damage on successful charge, +1d8 damage on crit)
+	bestial_hide_armor +1 (daily free action, extra basic attack @ +2 after hit on charge)
+	vanguard_maul +1 (+1d8 damage on successful charge, +1d8 damage on crit)
 		daily minor action, use when making charge, if successful allies
 		within 10 squares get +1 attack and +your cha damage until SOYNT
 	standard adventurer's kit
@@ -94,11 +94,15 @@ vitals:
 	other: +2 level +stat
 
 status:
-	10 damage (max hp: 15 +19 con +6*(5-1) level = 58)
+	0 temp hp
+	0 damage (max hp: 15 +19 con +6*(5-1) level = 58)
 	- initiative (bonus: +2 level +2 dex = +4)
-	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*58 maxhp = 16.0)
-	used 1/2 action_point, 0/2 item daily, 2 encounters today
+	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*58 maxhp = 14.5)
+	used 1/2 action_point, 0/2 item daily, 0 encounters today
 	powers used:
+
+	inform mikki of 14 gold from chesnin quest and 141 gold from party loot
+	need xp and loot from golem fight
 
 experience:
 	total	current	diff	description
