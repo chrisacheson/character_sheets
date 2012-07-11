@@ -23,12 +23,12 @@ earthforger theme:
 	+2 power bonus to endurance
 
 stats:
-	str	18	19 at level 4
-	con	18	19 at level 4
-	dex	15
-	int	12
-	wis	13
-	cha	14
+	str	18+2	21 at level 4
+	con	16+2	19 at level 4
+	dex	11
+	int	8
+	wis	10
+	cha	10
 	level bonus +2
 
 feats:
@@ -77,59 +77,30 @@ equipment:
 	climber's kit
 	everburning torch
 	gauntlets of blood (+2 damage vs bloodied targets)
+	iron armbands of power (+2 damage item bonus)
 
 vitals:
-	attack: +2 level +4 str +2 prof +1 magic +1 feat = +10
-	damage:	+4 str +1 magic +2 feat = +7
+	attack: +2 level +5 str +2 prof +1 enchant +1 feat = +11
+	damage:	+5 str +1 enchant +2 feat +2 item = +10
 
-	AC: 10 +2 level +2 dex +3 armor +1 class +1 magic = 19
+	AC: 10 +2 level +0 dex +3 armor +1 class +1 enchant = 17
 	fort: 10 +2 level +4 con +2 class +1 item = 19
-	reflex: 10 +2 level +2 dex +1 class +1 item = 16
-	will: 10 +2 level +2 cha +1 race +1 item = 16
+	reflex: 10 +2 level +0 dex +1 class +1 item = 14
+	will: 10 +2 level +0 cha +1 race +1 item = 14
 
-	perception: +5 trained +2 level +1 wis = +8 (18 passive)
-	athletics: +5 trained +2 level +4 str +2 race +2 background -1 ACP = +14
+	perception: +5 trained +2 level +0 wis = +7 (17 passive)
+	athletics: +5 trained +2 level +5 str +2 race +2 background -1 ACP = +15
 	endurance: +5 trained +2 level +4 con +2 theme -1 ACP = +13
-	nature: +2 level +2 race +1 wis = +5
+	nature: +2 level +2 race +0 wis = +4
 	other: +2 level +stat
 
 status:
 	0 temp hp
-	0 damage (max hp: 15 +19 con +6*(5-1) level = 58)
-	- initiative (bonus: +2 level +2 dex = +4)
-	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*58 maxhp = 14.5)
-	used 1/2 action_point, 0/2 item daily, 0 encounters today
+	6 damage (max hp: 15 +19 con +6*(5-1) level = 58)
+	- initiative (bonus: +2 level +0 dex = +2)
+	used 2 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*58 maxhp = 14.5)
+	used 0/2 action_point, 0/2 item daily, 2 encounters today
 	powers used:
-
-	inform mikki of 14 gold from chesnin quest and 141 gold from party loot
-	need xp and loot from golem fight
-
-experience:
-	total	current	diff	description
-	========================================================
-	0	0		character gen
-	500	500	(+500)	quarry enterance kobold fight
-	1125	1125	(+625)	quarry tunnel kobold fight
-		125	(-1000)	level 2
-	1325	325	(+200)	quarry dragon fight
-	1440	440	(+115)	goblin random encounter
-	1595	595	(+155)	goblin tower enterance
-	1675	675	(+80)	goblin tower stairs
-	1775	775	(+100)	fodder
-	2525	1525	(+750)	goblin harpoonists
-		275	(-1250)	level 3
-	2875	625	(+350)	blaze wyrm
-	2990	740	(+115)	storm shard and maws
-	3190	940	(+200)	kobold quarry maws
-	4190	1940	(+1000)	grey dragon guardian
-		440	(-1500)	level 4
-	4420	670	(+230)	flaming abominable horror skill challenge and boss fight
-	4690	940	(+270)	baldric challenge and fight
-	5012	1262	(+322)	missing exp adjustment
-	5047	1297	(+35)	chesnin quest reward
-	5222	1472	(+175)	flesh-crazed zombies
-	5500	1750	(+278)	fimburl devil fight
-		0	(-1750)	level 5
 
 gold:
 	current	diff	description
@@ -149,6 +120,8 @@ gold:
 	727	(+14)	chesnin quest reward
 	868	(+141)	sold party loot: 8 javelins, 7 amethysts
 	28	(-840)	bought gauntlets of blood
+	2628	(+2600)	krys' quest reward
+	828	(-1800)	buy iron armbands of power
 
 party loot:
 	bag of holding party loot
@@ -157,7 +130,8 @@ party loot:
 
 gear wishlist:
 	level 6, 1800gp
-		iron armbands of power (+2 damage item bonus)
 		horned helm (+1d6 damage on charge)
 	level 7, 2600gp
 		rushing cleats (+2 bull rush item bonus, +1 square to push/slide effects)
+	level 8, 3400gp
+		vanguard maul +2
