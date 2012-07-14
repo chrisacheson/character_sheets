@@ -90,6 +90,8 @@ vitals:
 
 	perception: +5 trained +2 level +0 wis = +7 (17 passive)
 	athletics: +5 trained +2 level +5 str +2 race +2 background -1 ACP = +15
+		climb: +2 untyped, double roll take highest
+		jump: double roll take highest
 	endurance: +5 trained +2 level +4 con +2 theme -1 ACP = +13
 	nature: +2 level +2 race +0 wis = +4
 	other: +2 level +stat
