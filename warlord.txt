@@ -1,0 +1,119 @@
+warlord:
+	armor proficiencies: cloth, leather, hide, chain, light shields
+	weapon proficiencies: simple/military melee, simple ranged
+	+1 fort, +1 will
+	12 + con stat starting HP
+	+5 HP per level
+	7 + con surges per day
+	skills: athletics(str), diplomacy(cha), history(int), intimidate(cha)
+	archer warlord (use str for basic attacks w/ bow, lose chain/shields, gain military ranged)
+	combat leader (you and allies within 10 get +2 power initiative)
+	tactical presence (allies in sight get +half int to first attack roll of AP attack)
+
+human:
+	+2 str, +2 int (house rule)
+	speed 6
+	speaks common and one other
+	bonus feat
+	bonus skill: endurance
+	heroic effort (+4 to failed attack or save 1x per encounter) or bonus at-will
+
+background:
+	+2 stealth
+
+noble adept theme:
+	gain 1 power point
+
+stats:
+	str	16+2	{9}	19 at lvl 4	+4
+	con	13	{3}			+1
+	dex	10				0
+	int	16+2	{9}	19 at lvl 4	+4
+	wis	8				-1
+	cha	14	{5}			+2
+	level bonus +3
+
+feats:
+	hrule	weapon expertise (bow)
+	hrule	skill training (stealth)
+	race	mark of healing
+	lvl 1	resilient focus
+	lvl 2	stubborn survivor
+	lvl 4	skill power (legend lore)
+	lvl 6	tactical assault
+
+powers:
+	at-will
+	#1	paint_the_bulls_eye - ranged, 1*weapon damage, allies get +int damage til SONT
+	#2	direct_the_strike - ranged 5, ally gets basic attack against enemy within 10 of you
+	encounter
+	class	inspiring_word - minor action, 2x per encounter (only 1x per round), close burst 5
+			you or ally spend surge and gain +2d6
+	race	heroic_effort - +4 to failed attack or save 1x per encounter
+	theme	adepts_insight - self/ally within 5, +1 on attack/save/skill roll
+			augment 1: +1d4+1 instead
+	lvl 1	vengeance_is_mine
+	lvl 3	martial_doom
+	lvl 7	on_my_mark
+	daily
+	lvl 1	relentless_wounding or lamb_to_the_slaughter
+	lvl 5	create_opportunity or stand_the_fallen
+	utility
+	lvl 2	spur_to_action or encouraging_boost
+	lvl 6	reorient_the_axis
+
+equipment:
+	2600gp	screaming hide armor +2
+			+2 item intimidate, encounter minor: enemy within 5 gets -2 attack til EONT
+	3400gp	dread longbow +2
+			+2d6 crit, on crit or daily on hit: -2 defense/checks til EONT
+	3gp	90 arrows
+	680gp	hidden rapier +1 (+1 item init, draw/sheath as free act, vanishes when sheathed)
+	1800gp	bracers of archery (+2 item damage w/ bow, daily minor: ignore cover)
+	1800gp	sandals of precise stepping (+2 item acrobatics/athletics/stealth)
+	5000gp	shadowdancer's mask (daily free act: reroll bluff/stealth w/ +3 power, use either)
+	3400gp	choker of eloquence (+2 fort/reflex/will, +2 item bluff/diplomacy and daily reroll)
+	1800gp	cincture of the dragon spirit (use str instead of cha for intimidate)
+	15gp	standard adventurer's kit
+	2gp	climber's kit (+2 untyped on climb)
+
+vitals:
+	attack (bow): +3 level +4 str +2 prof +2 enchant +1 feat = +12
+	damage (bow basic): +4 str +2 enchant +2 item = +8
+	damage (PtBE): +2 enchant +2 item = +4
+
+	attack (rapier): +3 level +4 str +2 prof +1 enchant = +10
+	damage (rapier): +4 str +2 enchant = +6
+
+	AC: 10 +3 level +4 int +3 armor +2 enchant = 22
+	fort: 10 +3 level +4 str +1 class +2 item = 20
+	reflex: 10 +3 level +4 int +2 item = 19
+	will: 10 +3 level +2 cha +1 class +2 item = 18
+
+	athletics: +5 trained +3 level +4 str +2 item -1 ACP = +13
+		climb: +2 untyped
+	diplomacy: +5 trained +3 level +2 cha +2 item = +12
+	history: +5 trained +3 level +4 int = +12
+	intimidate: +5 trained +3 level +4 str +2 item = +14
+	endurance: +5 trained +3 level +1 con -1 ACP = +8
+	stealth: +5 trained +3 level +0 dex +2 theme +2 item -1 ACP = +11
+	acrobatics: +3 level +0 dex +2 item -1 ACP = +4
+	bluff: +3 level +2 cha +2 item = +7
+	other: +3 level +stat
+
+status:
+	0 damage (max hp: 12 +13 con +5*(7-1) level = 55)
+	- initiative (bonus: +3 level +0 dex +2 power = +5)
+	used 0 healing surges (per day: 7 +1 con = 8, hp gain: 0.25*55 maxhp = 13.75)
+	used 0/1 action_point, 0/1 item daily, 0 encounters today
+	powers used:
+
+gold:
+	current	diff	description
+	================================================
+	20500		character gen
+	0	-20500	starting equipment
+
+gear wishlist:
+	level 10, 5000gp
+		rope of climbing (crawl/tie/untie on command)
