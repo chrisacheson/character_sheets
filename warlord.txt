@@ -6,9 +6,8 @@ warlord:
 	+5 HP per level
 	7 + con surges per day
 	skills: athletics(str), diplomacy(cha), history(int), intimidate(cha)
-	archer warlord (use str for basic attacks w/ bow, lose chain/shields, gain military ranged)
 	combat leader (you and allies within 10 get +2 power initiative)
-	tactical presence (allies in sight get +half int to first attack roll of AP attack)
+	tactical presence (allies in sight get +half int untyped to first attack roll of AP attack)
 
 human:
 	+2 str, +2 int (house rule)
@@ -34,7 +33,7 @@ stats:
 	level bonus +3
 
 feats:
-	hrule	weapon expertise (bow)
+	hrule	weapon expertise (heavy blade)
 	hrule	skill training (stealth)
 	race	mark of healing
 	lvl 1	resilient focus
@@ -44,32 +43,30 @@ feats:
 
 powers:
 	at-will
-	#1	paint_the_bulls_eye - ranged, 1*weapon damage, allies get +int damage til SONT
-	#2	direct_the_strike - ranged 5, ally gets basic attack against enemy within 10 of you
+	#1	intuitive_strike - vs will, [w] dmg, next attack w/ CA from ally til SONT: +2 power
+	#2	commanders_strike - ally gets MBA against target with +int untyped damage
 	encounter
 	class	inspiring_word - minor action, 2x per encounter (only 1x per round), close burst 5
 			you or ally spend surge and gain +2d6
-	race	heroic_effort - +4 to failed attack or save 1x per encounter
+	race	heroic_effort - +4 untyped to failed attack or save 1x per encounter
 	theme	adepts_insight - self/ally within 5, +1 on attack/save/skill roll
 			augment 1: +1d4+1 instead
-	lvl 1	vengeance_is_mine
+	lvl 1	vengeance_is_mine - when hit by enemy, make BA, ally gets move + MBA
 	lvl 3	martial_doom
-	lvl 7	on_my_mark
+	lvl 7	on_my_mark - [w]+str, eff: ally gets BA vs target, hit: ally gets +int power attack
 	daily
-	lvl 1	relentless_wounding or lamb_to_the_slaughter
-	lvl 5	create_opportunity or stand_the_fallen
+	lvl 1	relentless_wounding or lead_the_attack
+	lvl 5	stand_the_fallen - melee, 3[w]+str, effect: allies within 10 get surge + cha
 	utility
-	lvl 2	spur_to_action or encouraging_boost
-	lvl 6	reorient_the_axis
+	lvl 2	encouraging_boost - ranged 5, target gets second wind + cha HP
+	lvl 6	reorient_the_axis - move action, allies within 5 shift int squares
 
 equipment:
 	2600gp	screaming hide armor +2
 			+2 item intimidate, encounter minor: enemy within 5 gets -2 attack til EONT
-	3400gp	dread longbow +2
+	3400gp	dread greatsword +2
 			+2d6 crit, on crit or daily on hit: -2 defense/checks til EONT
-	3gp	90 arrows
-	680gp	hidden rapier +1 (+1 item init, draw/sheath as free act, vanishes when sheathed)
-	1800gp	bracers of archery (+2 item damage w/ bow, daily minor: ignore cover)
+	1800gp	iron armbands of power (+2 item melee damage)
 	1800gp	sandals of precise stepping (+2 item acrobatics/athletics/stealth)
 	5000gp	shadowdancer's mask (daily free act: reroll bluff/stealth w/ +3 power, use either)
 	3400gp	choker of eloquence (+2 fort/reflex/will, +2 item bluff/diplomacy and daily reroll)
@@ -78,12 +75,8 @@ equipment:
 	2gp	climber's kit (+2 untyped on climb)
 
 vitals:
-	attack (bow): +3 level +4 str +2 prof +2 enchant +1 feat = +12
-	damage (bow basic): +4 str +2 enchant +2 item = +8
-	damage (PtBE): +2 enchant +2 item = +4
-
-	attack (rapier): +3 level +4 str +2 prof +1 enchant = +10
-	damage (rapier): +4 str +2 enchant = +6
+	attack: +3 level +4 str +3 prof +2 enchant +1 feat = +13
+	damage: +4 str +2 enchant +2 item = +8
 
 	AC: 10 +3 level +4 int +3 armor +2 enchant = 22
 	fort: 10 +3 level +4 str +1 class +2 item = 20
@@ -112,7 +105,7 @@ gold:
 	current	diff	description
 	================================================
 	20500		character gen
-	0	-20500	starting equipment
+	683	-19817	starting equipment
 
 gear wishlist:
 	level 10, 5000gp
