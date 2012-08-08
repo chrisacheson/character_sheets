@@ -97,16 +97,16 @@ vitals:
 	other: +2 level +stat
 
 status:
+	need to take level
+	stage 1 filth fever, -1 max healing surges
 	0 temp hp
-	34 damage (max hp: 15 +19 con +6*(5-1) level = 58)
+	28 damage (max hp: 15 +19 con +6*(5-1) level = 58)
 	- initiative (bonus: +2 level +0 dex = +2)
-	used 3 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*58 maxhp = 14.5)
-	used 2/2 action_point, 0/2 item daily, 3 encounters today
+	used 11 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*58 maxhp = 14.5)
+	used 3/4 action_point, 1/4 item daily, 6 encounters today
 	powers used:
-		stones_endurance
-		action_point
-		thunder_hooves_rage active
-		avalanche_strike
+		thunder_hooves_rage
+		bestial_hide_armor
 
 gold:
 	current	diff	description
