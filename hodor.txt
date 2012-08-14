@@ -10,7 +10,7 @@ barbarian
 	+2 fortitude
 	barbarian agility (+1 AC and reflex when not in heavy armor)
 	rageblood vigor (gain con bonus in temp HP on kill)
-	rage strike (spend rage keyword power while already raging to do 4*weapon+str)
+	rage strike (spend rage keyword power while already raging to do 4*weapon+str @ level 5-8)
 	rampage (extra attack on crit)
 
 background:
@@ -29,12 +29,13 @@ stats:
 	int	8
 	wis	10
 	cha	10
-	level bonus +2
+	level bonus +3
 
 feats:
-	lvl 1	bludgeon expertise (+1 attack, push attacks get +1 square)
-	lvl 2	goliath greatweapon prowess (+2 damage)
-	lvl 3	improved rageblood vigor (5 more (9 total) temp hp on kill)
+	lvl 1	two-handed weapon expertise (+1 feat attack, on charge: +1 untyped damage)
+	lvl 2	goliath greatweapon prowess (+2 feat damage)
+	lvl 4	improved rageblood vigor (5 more (9 total) temp hp on kill)
+	lvl 6	reckless charge (on charge: take -2 AC for +1 untyped attack)
 
 powers:
 	at-will
@@ -62,6 +63,7 @@ powers:
 		hit w/ primal each turn, adjacent enemies take str damage after attack
 	utility
 	lvl 2	earthforgers_might (daily minor, +2 damage until EOE or leaving ground) equipment:
+	lvl 6	run_rampant (encounter minor, make escape/save vs immobilize/restrain/slow @ +str)
 
 equipment:
 	maul (+2 attack, 2d6 damage)
@@ -80,29 +82,30 @@ equipment:
 	iron armbands of power (+2 damage item bonus)
 
 vitals:
-	attack: +2 level +5 str +2 prof +1 enchant +1 feat = +11
+	attack: +3 level +5 str +2 prof +1 enchant +1 feat = +12
 	damage:	+5 str +1 enchant +2 feat +2 item = +10
+		charge: +1+1d8 untyped
+		target bloodied: +2 untyped
 
-	AC: 10 +2 level +0 dex +3 armor +1 class +1 enchant = 17
-	fort: 10 +2 level +4 con +2 class +1 item = 19
-	reflex: 10 +2 level +0 dex +1 class +1 item = 14
-	will: 10 +2 level +0 cha +1 race +1 item = 14
+	AC: 10 +3 level +0 dex +3 armor +1 class +1 enchant = 18
+	fort: 10 +3 level +4 con +2 class +1 item = 20
+	reflex: 10 +3 level +0 dex +1 class +1 item = 15
+	will: 10 +3 level +0 cha +1 race +1 item = 15
 
-	perception: +5 trained +2 level +0 wis = +7 (17 passive)
-	athletics: +5 trained +2 level +5 str +2 race +2 background -1 ACP = +15
+	perception: +5 trained +3 level +0 wis = +8 (18 passive)
+	athletics: +5 trained +2 level +6 str +2 race +2 background -1 ACP = +16
 		climb: +2 untyped, double roll take highest
 		jump: double roll take highest
-	endurance: +5 trained +2 level +4 con +2 theme -1 ACP = +13
-	nature: +2 level +2 race +0 wis = +4
-	other: +2 level +stat
+	endurance: +5 trained +3 level +4 con +2 theme -1 ACP = +14
+	nature: +3 level +2 race +0 wis = +5
+	other: +3 level +stat
 
 status:
-	need to take level
 	stage 1 filth fever, -1 max healing surges
 	0 temp hp
-	28 damage (max hp: 15 +19 con +6*(5-1) level = 58)
-	- initiative (bonus: +2 level +0 dex = +2)
-	used 11 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*58 maxhp = 14.5)
+	28 damage (max hp: 15 +19 con +6*(6-1) level = 64)
+	- initiative (bonus: +3 level +0 dex = +3)
+	used 11 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*64 maxhp = 16.0)
 	used 3/4 action_point, 1/4 item daily, 6 encounters today
 	powers used:
 		thunder_hooves_rage
@@ -137,7 +140,5 @@ party loot:
 gear wishlist:
 	level 6, 1800gp
 		horned helm (+1d6 damage on charge)
-	level 7, 2600gp
-		rushing cleats (+2 bull rush item bonus, +1 square to push/slide effects)
 	level 8, 3400gp
-		vanguard maul +2
+		vanguard greatsword +2
