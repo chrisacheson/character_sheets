@@ -101,15 +101,12 @@ vitals:
 	other: +3 level +stat
 
 status:
-	stage 1 filth fever, -1 max healing surges
 	0 temp hp
-	28 damage (max hp: 15 +19 con +6*(6-1) level = 64)
+	5 damage (max hp: 15 +19 con +6*(6-1) level = 64)
 	- initiative (bonus: +3 level +0 dex = +3)
-	used 11 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*64 maxhp = 16.0)
-	used 3/4 action_point, 1/4 item daily, 6 encounters today
+	used 1 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*64 maxhp = 16.0)
+	used 0/1 action_point, 0/1 item daily, 1 encounters today
 	powers used:
-		thunder_hooves_rage
-		bestial_hide_armor
 
 gold:
 	current	diff	description
@@ -135,6 +132,8 @@ gold:
 party loot:
 	bag of holding party loot
 	potion of resistance
+	staff of death
+	ivory mask
 	3gp divvying remainder
 
 gear wishlist:
