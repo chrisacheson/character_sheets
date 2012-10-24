@@ -97,7 +97,7 @@ vitals:
 	will: 10 +3 level +0 cha +1 race +1 item = 15
 
 	perception: +5 trained +3 level +0 wis = +8 (18 passive)
-	athletics: +5 trained +2 level +6 str +2 race +2 background -1 ACP = +16
+	athletics: +5 trained +3 level +5 str +2 race +2 background -1 ACP = +17
 		climb: +2 untyped, double roll take highest
 		jump: double roll take highest
 	endurance: +5 trained +3 level +4 con +2 theme -1 ACP = +14
@@ -105,17 +105,12 @@ vitals:
 	other: +3 level +stat
 
 status:
-	13 temp hp
-	59 damage (max hp: 15 +19 con +6*(6-1) level = 64)
+	0 temp hp
+	0 damage (max hp: 15 +19 con +6*(6-1) level = 64)
 	- initiative (bonus: +3 level +0 dex = +3)
-	used 0 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*64 maxhp = 16.0)
-	used 0/1 action_point, 0/1 item daily, 0 encounters today
+	used 7 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*64 maxhp = 16.0)
+	used 0/2 action_point, 0/2 item daily, 2 encounters today
 	powers used:
-		swift_charge
-		stone_panoply
-		brutal_slam
-		stones_endurance
-		avalanche_strike
 
 gold:
 	current	diff	description
