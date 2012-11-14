@@ -1,3 +1,4 @@
+level 6
 goliath
 	+2 str, +2 con
 	6 speed
@@ -105,12 +106,17 @@ vitals:
 	other: +3 level +stat
 
 status:
-	0 temp hp
-	0 damage (max hp: 15 +19 con +6*(6-1) level = 64)
+	need to take level 7
+	18 damage (max hp: 15 +19 con +6*(6-1) level = 64)
 	- initiative (bonus: +3 level +0 dex = +3)
 	used 7 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*64 maxhp = 16.0)
-	used 0/2 action_point, 0/2 item daily, 2 encounters today
+	used 1/2 action_point, 1/2 item daily, 2 encounters today
 	powers used:
+		swift_charge
+		thunder_hooves_rage active
+		bestial_hide_armor
+		stones_endurance
+		rage_of_the_crimson_hurricane
 
 gold:
 	current	diff	description
