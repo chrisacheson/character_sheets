@@ -1,4 +1,4 @@
-level 6
+level 7
 goliath
 	+2 str, +2 con
 	6 speed
@@ -55,10 +55,10 @@ powers:
 	lvl 3	brutal_slam
 		encounter standard action, str vs fort, 2*weapon+str
 		push target 2 squares and knock prone, then enemy adjactent to target takes 1d8+str
+	lvl 7	curtain_of_steel (imm reaction, after attack by enemy: 3*weapon+str counterattack)
 	daily
-	lvl 1	thunder_hooves_rage
-		3*weapon+str, half on miss, until EOR can move through one or two enemies per round
-		moving through enemy gives extra 1*weapon damage on next attack until EOT
+	lvl 1	swift_panther_rage
+		3*weapon+str, half on miss, until EOR +2 speed and can shift 2 as move
 	lvl 5	rage_of_the_crimson_hurricane
 		close burst 1, 1*weapon+str, each target takes ongoing 5 (save ends), rage: on first
 		hit w/ primal each turn, adjacent enemies take str damage after attack
@@ -106,10 +106,9 @@ vitals:
 	other: +3 level +stat
 
 status:
-	need to take level 7
-	18 damage (max hp: 15 +19 con +6*(6-1) level = 64)
+	18 damage (max hp: 15 +19 con +6*(7-1) level = 70)
 	- initiative (bonus: +3 level +0 dex = +3)
-	used 7 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*64 maxhp = 16.0)
+	used 7 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*70 maxhp = 17.5)
 	used 1/2 action_point, 1/2 item daily, 2 encounters today
 	powers used:
 		swift_charge
