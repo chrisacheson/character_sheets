@@ -106,15 +106,17 @@ vitals:
 	other: +3 level +stat
 
 status:
-	18 damage (max hp: 15 +19 con +6*(7-1) level = 70)
+	78 damage (max hp: 15 +19 con +6*(7-1) level = 70)
 	- initiative (bonus: +3 level +0 dex = +3)
-	used 7 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*70 maxhp = 17.5)
-	used 1/2 action_point, 1/2 item daily, 2 encounters today
+	used 2 healing surges (per day: 8 +4 con = 12, hp gain: 0.25*70 maxhp = 17.5)
+	used 1/1 action_point, 0/1 item daily, 0 encounters today
 	powers used:
 		swift_charge
-		thunder_hooves_rage active
-		bestial_hide_armor
+		curtain_of_steel
+		swift_panther_rage active
 		stones_endurance
+		stone_panoply
+		action_point
 		rage_of_the_crimson_hurricane
 
 gold:
