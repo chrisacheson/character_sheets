@@ -1,0 +1,122 @@
+Maar
+
+warlord:
+	armor proficiencies: cloth, leather, hide, chain, light shields
+	weapon proficiencies: simple/military melee, simple ranged
+	+1 fort, +1 will
+	12 + con stat starting HP
+	+5 HP per level
+	7 + con surges per day
+	skills: athletics(str), diplomacy(cha), history(int), intimidate(cha)
+	combat leader (you and allies within 10 get +2 power initiative)
+	tactical presence (allies in sight get +half int untyped to first attack roll of AP attack)
+
+human:
+	+2 str
+	speed 6
+	speaks common and sign language
+	bonus feat
+	bonus skill: endurance
+	heroic effort (+4 to failed attack or save 1x per encounter) or bonus at-will
+
+background:
+	+2 history
+
+noble adept theme:
+	gain 1 power_point
+
+stats:
+	str	17+2	{12}	20 at lvl 4	+5
+	con	10				0
+	dex	10				0
+	int	16	{9}	17 at lvl 4	+3
+	wis	8				-1
+	cha	11	{1}			0
+	level bonus +3
+
+feats:
+	hrule	weapon expertise (heavy blade)
+	race	mark of healing - grant saving throw when healing ally
+	lvl 1	resilient focus - +2 feat saves
+	lvl 2	stubborn survivor - +2 untyped saves when out of APs
+	lvl 4	improved tactics - increase tactical presence bonus by 1
+	lvl 6	shield proficiency (heavy)
+
+powers:
+	at-will
+	#1	intuitive_strike - vs will, [w] dmg, next attack w/ CA from ally til SONT: +2 power
+	#2	commanders_strike - ally gets MBA against target with +int untyped damage
+	encounter
+	class	inspiring_word - minor action, 2x per encounter (only 1x per round), close burst 5
+			you or ally spend surge and gain +2d6
+	race	heroic_effort - +4 racial to failed attack or save
+	theme	adepts_insight - self/ally within 5, +1 on attack/save/skill roll
+			augment 1: +1d4+1 instead
+	lvl 1	warlords_favor - 2[w]+str, ally within 5 gets +int+1 power attack vs target til EONT
+	lvl 2	legend_lore - sub history for any knowledge skill check
+	lvl 3	vengeance_is_mine - immreact when hit, BA against attacker and ally within 5 can
+			move speed and make MBA against attacker
+	lvl 6	reorient_the_axis - move action, allies within 5 shift int squares
+	lvl 7	join_the_crowd - when ally makes area/close attack, 2[w]+str vs enemy not targeted
+			and slide enemy str squares
+	item	recoil_shield
+	daily
+	lvl 1	lead_the_attack - 3[w]+str, allies within 5 get +int+1 power attack
+			miss: half damage, allies within 5 get +1 power attack
+	lvl 5	stand_the_fallen - melee, 3[w]+str, effect: allies within 10 get surge + cha
+	item	dread_longsword
+
+equipment:
+	5000gp	healer's hide armor +2 - healing powers give +enchant more on surge
+	3400gp	dread_longsword +2
+			+2d6 crit, on crit or daily on hit: -enchant defense/checks til EONT
+	4200gp	heavy recoil_shield - encounter immreact on hit by melee: attacker is proned
+	4200gp	healer's brooch +2 - +enchant fort/ref/will, powers that give hp give +enchant more
+	1800gp	cincture of the dragon spirit (use str instead of cha for intimidate)
+	15gp	standard adventurer's kit
+	2gp	climber's kit (+2 untyped on climb)
+	50gp	everburning torch
+
+vitals:
+	attack: +3 level +5 str +3 prof +2 enchant +1 feat = +14
+	damage: +5 str +2 enchant = +7
+
+	AC: 10 +3 level +3 int +3 armor +2 enchant +2 shield = 23
+	fort: 10 +3 level +5 str +1 class +2 enchant = 21
+	reflex: 10 +3 level +3 int +2 enchant +2 shield = 20
+	will: 10 +3 level +0 cha +1 class +2 enchant = 16
+
+	athletics: +5 trained +3 level +5 str -1 ACP = +12
+		climb: +2 untyped
+		shield: -2 ACP
+	diplomacy: +5 trained +3 level +0 cha = +8
+	history: +5 trained +3 level +3 int +2 theme = +13
+	intimidate: +5 trained +3 level +5 str = +13
+	endurance: +5 trained +3 level +0 con -1 ACP = +7
+		shield: -2 ACP
+	other(str): +3 level +5 str -1 ACP = +7
+		shield: -2 ACP
+	other(con/dex): +3 level +0 stat -1 ACP = +2
+		shield: -2 ACP
+	other(int): +3 level +3 int = +6
+	other(cha): +3 level +0 cha = +3
+	other(wis): +3 level -1 wis = +2
+
+status:
+	0 damage (max hp: 12 +13 con +5*(7-1) level = 55, bloody at 28 damage)
+	- initiative (bonus: +3 level +0 dex +2 power = +5)
+	used 0 healing surges (per day: 7 +1 con = 8, hp gain: 0.25*55 maxhp = 13.75)
+	used 0/1 action_point, 0/1 item daily, 0 encounters today
+	powers used:
+
+gold:
+	current	diff	description
+	================================================
+	20500		character gen
+	1833	-18667	starting equipment
+
+wishlist:
+	4200gp	helm of battle - +1 item initiative for self and allies within 5
+	5000gp	strikebacks - encounter immreact: on hit by adjacent enemy, make MBA against them
+	4200gp	boots_of_eagerness - encounter minor: extra move action
+	4200gp	backlash_tattoo - encounter immreact: MBA when bloodied for first time
