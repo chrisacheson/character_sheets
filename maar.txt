@@ -103,11 +103,18 @@ vitals:
 	other(wis): +3 level -1 wis = +2
 
 status:
-	0 damage (max hp: 12 +13 con +5*(7-1) level = 55, bloody at 28 damage)
+	15 damage (max hp: 12 +13 con +5*(7-1) level = 55, bloody at 28 damage)
 	- initiative (bonus: +3 level +0 dex +2 power = +5)
 	used 0 healing surges (per day: 7 +1 con = 8, hp gain: 0.25*55 maxhp = 13.75)
 	used 0/1 action_point, 0/1 item daily, 0 encounters today
 	powers used:
+		inspiring_word
+		warlords_favor
+		inspiring_word
+		vengeance_is_mine
+		adepts_insight power_point
+		heroic_effort
+		stand_the_fallen
 
 gold:
 	current	diff	description
