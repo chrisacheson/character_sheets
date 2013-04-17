@@ -1,0 +1,77 @@
+HENIDEG AXIDOBE
+neutral good
+human
+	speed 30ft
+	extra feat at level 1
+	extra skill point per level (x4 at level 1)
+	speaks common
+barbarian
+	d12 hit dice
+	4 + int mod skill points per level (x4 at level 1)
+	proficient with simple/martial weapons, light/medium armor, non-tower shields
+	+10ft speed when in no armor, light armor, or medium armor, and not carrying heavy load
+	illiterate (spend 2 skill points or multiclass to remove)
+	rage: +4 str, +4 con, +2 morale to will, -2 AC, lasts 3 + con mod rounds, fatigued after
+	4d4 * 10 starting gold (140gp)
+	class skills: athletics, craft, handle animal, intimidate, perception, ride, survival
+
+str	18	+4
+dex	16	+3
+con	18	+4
+int	11	+0
+wis	10	+0
+cha	13	+1
+
+hide + move silently + sleight of hand = stealth (dex)
+listen + spot + search = perception (wis)
+jump + climb + swim = athletics (str)
+forgery + decipher script + appraise = appraisal (int)
+balance + tumble + escape artist = acrobatics (dex)
+
+skills:
+level		 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20     goal
+points gained	20  4  5  5  6  6  6  6  6
+==========================================================================================
+athletics	 4                                                              11 to 13
+intimidate	 4                                                              max
+perception	 4                                                              max
+survival	 4                                                              ?
+craft (trap)	 2                                                              ?
+literacy	 2
+
+skill synergies:
+	craft (trap)	+2 on related appraise checks
+	jump		+2 on tumble
+	search		+2 on survival for tracking
+	survival	+2 on knowldge (nature)
+
+background
+	location
+		from hilly tropical area
+		born in a small city
+	personal
+		from a wealthy family
+		positive relationship with the local monastery
+		high level of martial training
+	family
+		family has well-deserved reputation for taking actions detrimental to the community
+		family uninterested in religion, but has family code of conduct
+		family in loyal opposition to local government (support existing structure but in favor of change)
+		matriarchal family
+		no ancestors of note
+	life events
+		early education: learned wilderness survival skills
+		late education: finishing school, etiquette and courtly manners
+		trade school: trained in specialized trade such as education bookkeeping or law
+		young child: undertook long journey
+		youth: heavily involved in local religion
+		pivotal events
+			late youth/early adulthood, became refugee due to calamity
+	relationships
+		both parents alive and healthy
+		youngest, with two older siblings
+		great grandmother still alive
+		extendent family, 14 living relatives
+		some friends from youth that are acquiantances/associates, but not close
+		pursued by dangerous enemy
+		mentor (still alive)
