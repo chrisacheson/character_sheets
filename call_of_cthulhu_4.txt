@@ -1,0 +1,92 @@
+str	5
+con	8
+pow	12
+dex	14
+app	10
+
+siz	18
+int	10
+
+edu	14
+
+san	60
+
+idea	50
+luck	60
+know	70
+
+damage	+0
+
+99mCM	99
+
+hp	-1/13
+mp	12/12
+sp	58/99
+
+prop	$1500+r&b
+
+
+profession: criminal
+	skill points: 280
+	bargain			5	+	35	=	40
+	disguise		1	+	35	=	36
+	fast talk		5	+	35	=	40
+	handgun			20	+	35	=	55
+	locksmith		1	+	35	=	36
+	sneak			10	+	35	=	45
+	spot hidden		25	+	35	=	60
+	*one other (shotgun)	30	+	35	=	65
+
+hobby skills:
+	skill points: 100
+	accounting		10
+	anthropology		1
+	archaeology		1
+	art			5
+	astronomy		1
+	biology			1
+	chemistry		1	+	20	=	21
+	climb			40	+	10	=	50
+	conceal			15	+	20	=	35
+	craft			5
+	credit rating		15
+	cthulhu mythos		0
+	dodge			dex*2	+	10	=	38
+	drive auto		20
+	electr. repair		10
+	first aid		30
+	geology			1
+	hide			10	+	10	=	20
+	history			20
+	jump			25	+	10	=	35
+	law			5
+	library use		25
+	listen			25
+	martial arts		1	+	20	=	21
+	mech. repair		20
+	medicine		5
+	natural history		10
+	navigate		10
+	occult			5
+	opr. hvy. mch.		1
+	other language		1
+	own language		edu*5
+	persuade		15
+	pharmacy		1
+	photography		10
+	physics			1
+	pilot			1
+	psycoanalysis		1
+	psychology		5
+	ride			5
+	swim			25
+	throw			25
+	track			10
+	machine gun		15
+	rifle			25
+	smg			15
+
+equipment:
+	.45 automatic				$40
+	12-gauge shotgun (pump)			$45
+	12-gauge shotgun (2b, sawed off)	$40

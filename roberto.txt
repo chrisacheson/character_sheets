@@ -1,0 +1,132 @@
+roberto
+level 4
+
+swordmage
+	armor proficiencies: cloth, leather
+	weapon proficiencies: simple melee/ranged, military lt/hvy blades
+	implement profs: any lt/hvy blade (add enchant bonus/effect to atk/dmg, but not prof)
+	+2 (class) will
+	15 + con stat starting HP
+	+6 hp per level
+	8 + con surges per day
+	skills: arcana(int), athletics(str), endurance(con), history(int)
+	swordbond (can use standard action to summon weapon up to 10 sq away)
+	swordmage warding (+1 class AC when wielding lt/hvy blade, or +3 if off-hand also free)
+
+warforged
+	+2 str/int, +2 con
+	6 speed
+	speaks common
+	+2 endurance, +2 intimidate
+	+1 (race) will
+	living construct, don't need to eat/drink/breathe/sleep
+	for extended rest, sit still for 4 hours, remain fully aware
+	+2 (race) on save vs ongoing damage
+	can take 10 on death save
+
+background:
+	+2 athletics
+
+noble adept theme:
+	gain 1 power_point
+
+stats:
+	str	10				0
+	con	14+2	{5}	17 at lvl 4	+3
+	dex	11	{1}			0
+	int	18+2	{16}	21 at lvl 4	+5
+	wis	10				0
+	cha	8				-1
+	level bonus +2
+
+feats:
+	hrule	versatile expertise (heavy blade) - +1 (feat) attack w/ heavy blade
+	lvl 1	intelligent blademaster - use int for basic attacks
+	lvl 2	white_lotus_riposte - if enemy hit by your at-will attacks you before SOYNT, they
+			take damage = at-will's ability modifier
+	lvl 4	warforged tactics - +1 (untyped) melee attack vs enemy adjacent to ally
+
+powers:
+	at-will
+	#1	booming_blade - [w]+int dmg, if target adjacent and moves away during
+			their turn, they take 1d6+con thunder dmg
+	#2	sword_burst - int impl vs ref, all enemies in cburst 1, 1d6+int force dmg
+	class	aegis_of_assault - minor action, mark target within cburst 2, mark gets -2 attack
+			if you aren't targetted, if within 10 sq and hits: imm react to teleport
+			adjacent and make MBA against mark
+	encounter
+		second_wind
+	hrule	item_daily
+	race	*warforged_resolve - minor action, gain 3 + half level THP, immediate save against
+			ongoing damage, if bloodied: also gain 3 + half level HP
+	theme	*adepts_insight - self/ally within 5, +1 on attack/save/skill roll
+			augment 1: +1d4+1 instead
+	theme	*power_point
+	item	flowform_leather_armor - noop, when hit by save ends effect, make saving throw
+			against it
+			augment 1: add armor enhancement to saving throw
+	lvl 1	*foesnare - [w]+int, on hit: target immobilized until EOYNT, can use on charge
+	lvl 2u	*channeling_shield - imm intr, when self or ally within 10 gets hit, reduce dmg by
+			5+con
+	lvl 3	*dimensional_vortex - imm intr, ranged 10, when enemy hits ally with melee attack:
+			int impl vs will, teleport enemy 5 sq and they attack creature you choose
+	milestone
+		*action_point
+	daily
+	item	cloak_of_resistance - minor, DR5 until SOYNT
+	item	circlet_of_second_chances - noop, reroll failed save, use 2nd result
+	lvl 1	dimensional_thunder - teleport con squares, 2[w]+int, effect: adjacent enemies take
+			5 ongoing thunder dmg save ends
+
+equipment:
+	3 healing potions
+	bracers of mighty striking (+2 (item) dmg to MBAs)
+	flowform_leather_armor +1 (encounter power)
+	shielding longsword +1 (+1 (shield) AC)
+	belt of vigor (+1 (item) surge value)
+	cloak_of_resistance (+1 (item) to all NADs, daily power)
+	circlet_of_second_chances (daily power)
+
+vitals:
+	attack: +2 level +5 int +3 prof +1 enchant +1 feat = +12
+	implement: +2 level +5 int +1 enchant +1 feat = +9
+	damage: +5 int +1 enchant = +6
+		MBA: +2 item = +8
+
+	AC: 10 +2 level +5 int +2 armor +1 enchant +1 shield +3 class = 24
+	fort: 10 +2 level +3 con +1 item = 16
+	reflex: 10 +2 level +5 int +1 item = 18
+	will: 10 +2 level +0 wis +2 class +1 race +1 item = 16
+
+	arcana: +5 trained +2 level +5 int = +12
+	athletics: +5 trained +2 level +0 str +2 background = +9
+	endurance: +5 trained +2 level +3 con +2 race = +12
+	history: +5 trained +2 level +5 int = +12
+	intimidate: +2 level -1 cha +2 race = +3
+	other: +2 level +stat
+
+status:
+	do level up and short rest
+	40 damage (max hp: 15 +17 con +6*(4-1) level = 50, bloodied at 25 dmg)
+	- initiative (bonus: +2 level +0 dex = +2)
+		warlord bonus: +2 power
+	used 4 healing surges (per day: 8 +3 con = 11, hp gain: 0.25*50 maxhp +1 item = 13.5)
+	2 encounters today
+
+gold:
+	current	diff	description
+	================================================
+	2550		character gen (L1/L2/L3/L4 items, 3x healing pots)
+	1710	-840	flowform_leather_armor +1
+	1190	-520	bracers of mighty striking
+	350	-840	shielding longsword +1
+	200	-150	3 healing potions
+	880	+680	level 3 loot coupon
+	200	-680	circlet_of_second_chances
+
+gear wishlist:
+	680gp	demonskin tattoo (on AP: DR5 against one element, acid/cold/fire/lightning/thunder)
+	680gp	siberys shard of the mage (+1 untyped dmg to implement attacks)
+	680gp	battle standard of healing (encounter stact, on surge: +1 hp for everyone)
+	840gp	wildrunners (run gives +4 sq, daily fract: use on run, do not grant CA)
+	840gp	gauntlets of blood (+2 untyped dmg vs bloodied targets)

@@ -1,0 +1,110 @@
+harvey mcmaham
+
+str	11
+con	9
+pow	7
+dex	16
+app	14
+
+siz	15
+int	13
+
+edu	12
+
+san	22
+
+idea	65
+luck	35
+know	60
+
+damage	+1d4
+
+99mCM	98
+
+hp	12/12
+mp	7/7
+sp	27/98
+
+income	$10k
+prop	$50k
++$125
+
+
+profession: police detective
+	skill points: 240
+	bargain			5
+	fast talk		5
+	law			5	+	35	=	40
+	listen			25	+	40	=	65
+	persuade		15	+	40	=	55
+	psychology		5	+	40	=	45
+	spot hidden		25	+	40	=	65
+	*one other (shotgun)	30	+	45	=	75
+
+
+hobby skills:
+	skill points: 130
+	accounting		10
+	anthropology		1
+	archaeology		1
+	art			5
+	astronomy		1
+	biology			1
+	chemistry		1
+	climb			40
+	conceal			15
+	craft			5
+	credit rating		15	+	10	=	25
+	cthulhu mythos		0
+	disguise		1
+	dodge			dex*2	+	10	=	32+10 = 42
+	drive auto		20	+	35	=	55
+	electr. repair		10
+	first aid		30
+	geology			1
+	hide			10
+	history			20
+	jump			25
+	library use		25	+	10	=	35
+	locksmith		1	+	1	=	2
+	martial arts		1
+	mech. repair		20
+	medicine		5
+	natural history		10
+	navigate		10
+	occult			5
+	opr. hvy. mch.		1
+	other language		1
+	own language		edu*5
+	pharmacy		1
+	photography		10	+	10	=	20
+	physics			1
+	pilot			1
+	psychoanalysis		1
+	ride			5
+	sneak			10
+	swim			25
+	throw			25
+	track			10	+	10	=	20
+	handgun			20	+	45	=	65
+	machine gun		15
+	rifle			25
+	smg			15
+
+equipment:
+	.45 automatic				$40
+	12-gauge shotgun (pump)			$45
+
+notes:
+	theodore corbett - died 14 years ago
+	bernard corbett
+	lyn-anne mayers-corbett - died in childbirth 12 years ago
+	mona dunlap - suffered stroke while trying to deliver baby
+		died 6 years later, never regained consciousness
+	found weird creature and laboratory in basement
+	found 14 journals, story of bernard's life
+		crazy shit
+
+	thus ends harvey mcmaham
+	killed two of his friends
+	mind lost forever

@@ -1,0 +1,87 @@
+Dr. John William Robert James III
+
+str	3
+con	8
+pow	11
+dex	11
+app	8
+siz	11
+int	10
+edu	12
+
+san	55
+idea	50
+luck	55
+know	60
+damage	-1d4
+99mCM	99
+
+hp	10/10
+mp	11/11
+sp	51/99
+
+income	$10,000/year
+assets	$50,000
+
+
+profession: doctor of medicine
+	skill points: 240
+	biology			1	+	29	=	30
+	credit rating		15
+	first aid		30	+	60	=	90
+	other language (latin)	1
+	medicine		5	+	68	=	73
+	pharmacy		1	+	29	=	30
+	psychoanalysis		1
+	psychology		5	+	25	=	30
+	*one other (chemistry)	1	+	29	=	30
+
+
+
+hobby skills:
+	skill points: 120
+	accounting		10
+	anthropology		1
+	archaeology		1
+	art			5
+	astronomy		1
+	bargain			5
+	climb			40
+	conceal			15
+	craft			5
+	cthulhu mythos		0
+	disguise		1
+	dodge			dex*2	+	0	=	22+0 = 22
+	drive auto		20
+	electr. repair		10
+	fast talk		5
+	geology			1
+	hide			10
+	history			20
+	jump			25
+	law			5
+	library use		25	+	60	=	85
+	listen			25	+	40	=	65
+	locksmith		1
+	martial arts		1
+	mech. repair		20
+	natural history		10
+	navigate		10
+	occult			5
+	opr. hvy. mch.		1
+	other language		1
+	own language		edu*5	+	0	=	60
+	persuade		15
+	photography		10
+	physics			1
+	pilot			1
+	ride			5
+	sneak			10
+	spot hidden		25	+	40	=	65
+	swim			25
+	throw			25
+	track			10
+	handgun			20	+	35	=	55
+	machine gun		15
+	rifle			25
+	smg			15

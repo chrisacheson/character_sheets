@@ -1,0 +1,14 @@
+strange package:
+	loaf of bread
+	bottle of wine (illegal)
+	perfume-soaked letter
+		stationery has distinct symbol: miskatonic university
+		meet at string quartet tomorrow night
+	ladies' undergarments
+
+skill: 19 innsmouth lore
+skill: 1 cthulhu mythos (-1 current/max sanity)
+
++4 sanity
+
+read "the shadow over innsmouth"
